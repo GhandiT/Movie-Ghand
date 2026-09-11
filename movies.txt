@@ -1,21 +1,21 @@
 Hancock  
-gun's akimbo  
+Guns Akimbo  
 ready or not  
 bad boy 1  
 extinction  
 inception  
 lucy  
-iron man 1  
-iron man 2  
-iron man 3  
+Iron Man  
+Iron Man 2  
+Iron Man 3  
 Captain America: The First Avenger  
 Captain America: The Winter Soldier  
 Captain America: Civil War  
 Captain Marvel  
 Titanic  
 Mask  
-Thor 1  
-Thor 2  
+Thor 
+Thor: The Dark World  
 Thor: Ragnarok  
 The Avengers  
 Avengers: Endgame  
@@ -166,8 +166,8 @@ Sonic the Hedgehog
 Eternal Sunshine of the Spotless Mind  
 The Shawshank Redemption  
 Hansel and Gretel: Witch Hunters  
-Kingsman: The Secret Service 1  
-Kingsman: The Golden Circle 2  
+Kingsman: The Secret Service   
+Kingsman: The Golden Circle   
 Jolt  
 Black Widow  
 The Tomorrow War  
@@ -208,7 +208,7 @@ Thor: Love and Thunder
 V for Vendetta  
 Peppermint  
 Oblivion  
-Venom 2  
+Venom
 Source Code  
 Escape from Pretoria  
 Black Adam  
@@ -252,5 +252,8 @@ Spider-Man 2 (2004)
 Spider-Man 3 (2007)  
 The Amazing Spider-Man (2012)  
 The Amazing Spider-Man 2 (2014)  
-Dumb and Dumber 1  
+Dumb and Dumber   
 I,robot
+The Big Bang Theory
+Thor: Love and Thunder
+Venom: The Last Dance
