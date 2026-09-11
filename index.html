@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GHANDI MOVIES — a personal film archive</title>
+  <meta name="description" content="A personal, self-updating library of every film watched — built from a plain text list." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <h1 class="brand-name">Ghandi Movies</h1>
+      </div>
+      <p class="brand-tagline">A running record of everything watched</p>
+    </div>
+
+    <div class="stats-strip" id="stats-strip" aria-live="polite">
+      <!-- filled in by script.js -->
+    </div>
+  </header>
+
+  <main>
+
+    <section class="controls" id="controls" aria-label="Sort and filter">
+      <div class="control-group">
+        <label for="sort-select">Sort by</label>
+        <select id="sort-select">
+          <option value="my-order">My order</option>
+          <option value="rating-desc">Rating — high to low</option>
+          <option value="rating-asc">Rating — low to high</option>
+          <option value="year-desc">Year — newest first</option>
+          <option value="year-asc">Year — oldest first</option>
+          <option value="alpha-asc">Title A → Z</option>
+          <option value="alpha-desc">Title Z → A</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="genre-select">Genre</label>
+        <select id="genre-select">
+          <option value="all">All genres</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="year-select">Year</label>
+        <select id="year-select">
+          <option value="all">All years</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="rating-select">Minimum rating</label>
+        <select id="rating-select">
+          <option value="0">Any rating</option>
+          <option value="9">9.0+</option>
+          <option value="8">8.0+</option>
+          <option value="7">7.0+</option>
+          <option value="6">6.0+</option>
+          <option value="5">5.0+</option>
+        </select>
+      </div>
+
+      <p class="result-count" id="result-count"></p>
+    </section>
+
+    <section aria-label="Movie collection">
+      <div class="movie-grid" id="movie-grid">
+        <!-- movie cards injected by script.js -->
+      </div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <h2>Nothing here yet</h2>
+        <p id="empty-state-message">
+          Add titles to <code>movies.txt</code> and run the update workflow to populate this archive.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Data from <a href="https://www.omdbapi.com/" target="_blank" rel="noopener noreferrer">OMDb API</a>. Generated automatically — no browser API calls.</p>
+  </footer>
+
+  <!-- Card detail overlay -->
+  <div class="detail-overlay" id="detail-overlay" hidden>
+    <div class="detail-card" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <button class="detail-close" id="detail-close" aria-label="Close">&times;</button>
+      <div class="detail-body" id="detail-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
