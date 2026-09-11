@@ -1,0 +1,64 @@
+name: Update movies.json
+
+# When this workflow runs:
+# 1. Automatically, whenever movies.txt is changed on the main branch
+# 2. Manually, from the Actions tab ("Run workflow" button) — useful the
+#    first time you set things up, or if you just want to refresh data
+#
+# Security note: this workflow intentionally only triggers on `push` (to
+# main) and `workflow_dispatch`, never on `pull_request` or
+# `pull_request_target`. That means it never runs against code from a
+# fork or an untrusted PR, so the OMDB_API_KEY secret is never exposed
+# to code you didn't write yourself.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "movies.txt"
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: "Re-fetch every movie, ignoring the cache"
+        type: boolean
+        default: false
+
+# Minimum permissions needed: only `contents: write`, so the workflow can
+# commit the regenerated movies.json back to the repo. No other scopes
+# are granted.
+permissions:
+  contents: write
+
+jobs:
+  update-movies:
+    runs-on: ubuntu-latest
+    steps:
+      # Third-party actions are pinned to an immutable commit SHA (not a
+      # mutable tag) so this workflow can't silently start running
+      # different code later. The version is noted in a trailing comment
+      # for human readability.
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "20"
+
+      - name: Fetch movie data from OMDb
+        env:
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
+        run: node scripts/fetch-movies.js
+
+      - name: Commit updated movies.json
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add movies.json
+          if git diff --cached --quiet; then
+            echo "No changes to movies.json — nothing to commit."
+          else
+            git commit -m "chore: update movies.json [skip ci]"
+            git push
+          fi
