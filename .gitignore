@@ -1,0 +1,10 @@
+# Never commit real secrets
+.env
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Dependencies (not needed for this project, but harmless to ignore)
+node_modules/
