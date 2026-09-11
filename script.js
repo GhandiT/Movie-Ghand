@@ -36,25 +36,6 @@
   let allMovies = []; // successfully-fetched movies, in movies.txt order
   let failedMovies = []; // movies OMDb couldn't resolve
 
-/* ---------------- theme ---------------- */
-
-function initTheme() {
-  const saved = localStorage.getItem("theme");
-  const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-  const theme = saved || (prefersLight ? "light" : "dark");
-  document.documentElement.setAttribute("data-theme", theme);
-}
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute("data-theme") || "dark";
-  const next = current === "dark" ? "light" : "dark";
-  document.documentElement.setAttribute("data-theme", next);
-  localStorage.setItem("theme", next);
-}
-
-// این رو قبل از init() صدا بزن:
-initTheme();
-  
   init();
 
   async function init() {
@@ -82,16 +63,6 @@ initTheme();
     renderStats(data);
     populateFilters();
     bindControls();
-    function bindControls() {
-  [els.sort, els.genre, els.year, els.rating].forEach((elm) =>
-    elm.addEventListener("change", applyAndRender)
-  );
-
-  document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
-
-  els.detailClose.addEventListener("click", closeDetail);
-  // ... بقیه
-}
     applyAndRender();
   }
 
