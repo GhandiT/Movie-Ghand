@@ -22,6 +22,63 @@
   --shadow-lifted: 0 24px 48px -20px rgba(0, 0, 0, 0.65);
   --radius-card: 4px 4px 14px 14px;
 }
+/* ↓↓↓ این بخش رو اضافه کن ↓↓↓ */
+[data-theme="light"] {
+  --bg: #f5f2ec;
+  --bg-elevated: #ffffff;
+  --bg-card: #ffffff;
+  --hairline: rgba(20, 18, 22, 0.1);
+  --ivory: #1a1820;
+  --muted: #6b6570;
+  --brass: #a8842f;
+  --brass-soft: rgba(168, 132, 47, 0.14);
+  --curtain: #8b2438;
+  --shadow-lifted: 0 24px 48px -20px rgba(20, 18, 22, 0.18);
+}
+/* transition نرم موقع تغییر تم */
+body,
+.site-header,
+.movie-card,
+.control-group select,
+.control-group input,
+.detail-card {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.theme-toggle {
+  background: var(--bg-elevated);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s, transform 0.2s;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  border-color: var(--brass);
+  transform: translateY(-2px);
+}
+
+.theme-icon {
+  position: absolute;
+  font-size: 1.1rem;
+  color: var(--brass);
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s;
+}
+
+.theme-icon-sun { transform: translateY(0) rotate(0deg); opacity: 1; }
+.theme-icon-moon { transform: translateY(30px) rotate(180deg); opacity: 0; }
+
+[data-theme="light"] .theme-icon-sun { transform: translateY(-30px) rotate(-180deg); opacity: 0; }
+[data-theme="light"] .theme-icon-moon { transform: translateY(0) rotate(0deg); opacity: 1; }
 
 * { box-sizing: border-box; }
 
