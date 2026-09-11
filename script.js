@@ -28,14 +28,107 @@
     genre: document.getElementById("genre-select"),
     year: document.getElementById("year-select"),
     rating: document.getElementById("rating-select"),
+    search: document.getElementById("search-input"),
+    themeToggle: document.getElementById("theme-toggle"),
+    backToTop: document.getElementById("back-to-top"),
     overlay: document.getElementById("detail-overlay"),
     detailBody: document.getElementById("detail-body"),
     detailClose: document.getElementById("detail-close"),
+    welcomeOverlay: document.getElementById("welcome-overlay"),
+    welcomeClose: document.getElementById("welcome-close"),
+    welcomeCta: document.getElementById("welcome-cta"),
   };
 
-  let allMovies = []; // successfully-fetched movies, in movies.txt order
+  let allMovies = [];   // successfully-fetched movies, in movies.txt order
   let failedMovies = []; // movies OMDb couldn't resolve
 
+  /* ==================================================================
+     THEME
+     The theme is applied in a tiny inline <script> in <head> to avoid
+     a flash of the wrong theme. Here we just wire up the toggle.
+     ================================================================== */
+
+  function initTheme() {
+    if (!els.themeToggle) return;
+    els.themeToggle.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") || "dark";
+      const next = current === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) { /* ignore */ }
+    });
+  }
+
+  /* ==================================================================
+     BACK TO TOP
+     ================================================================== */
+
+  function initBackToTop() {
+    if (!els.backToTop) return;
+
+    window.addEventListener(
+      "scroll",
+      () => {
+        els.backToTop.hidden = window.scrollY < 400;
+      },
+      { passive: true }
+    );
+
+    els.backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  /* ==================================================================
+     WELCOME POPUP
+     Shown once per browser session (sessionStorage). Auto-dismisses
+     after 8s, or on click of close / CTA / backdrop / Escape.
+     ================================================================== */
+
+  function showWelcome() {
+    if (!els.welcomeOverlay) return;
+
+    let seen = false;
+    try { seen = sessionStorage.getItem("welcome-seen") === "1"; } catch (e) { /* ignore */ }
+    if (seen) return;
+
+    els.welcomeOverlay.hidden = false;
+
+    let dismissTimer = null;
+    let closed = false;
+
+    function dismiss() {
+      if (closed) return;
+      closed = true;
+      if (dismissTimer) clearTimeout(dismissTimer);
+      els.welcomeOverlay.classList.add("closing");
+      try { sessionStorage.setItem("welcome-seen", "1"); } catch (e) { /* ignore */ }
+      setTimeout(() => {
+        els.welcomeOverlay.hidden = true;
+        els.welcomeOverlay.classList.remove("closing");
+      }, 350);
+    }
+
+    els.welcomeClose.addEventListener("click", dismiss, { once: true });
+    els.welcomeCta.addEventListener("click", dismiss, { once: true });
+    els.welcomeOverlay.addEventListener("click", (e) => {
+      if (e.target === els.welcomeOverlay) dismiss();
+    });
+    document.addEventListener("keydown", function onKey(e) {
+      if (e.key === "Escape") {
+        dismiss();
+        document.removeEventListener("keydown", onKey);
+      }
+    });
+
+    dismissTimer = setTimeout(dismiss, 8000);
+  }
+
+  /* ==================================================================
+     BOOT
+     ================================================================== */
+
+  initTheme();
+  initBackToTop();
   init();
 
   async function init() {
@@ -64,6 +157,9 @@
     populateFilters();
     bindControls();
     applyAndRender();
+
+    // Show the welcome popup only after the grid has rendered.
+    showWelcome();
   }
 
   function showLoadFailure(err) {
@@ -80,15 +176,24 @@
   function normalizeFrontendMovie(m) {
     return {
       queriedTitle: typeof m.queriedTitle === "string" ? m.queriedTitle : "Untitled",
-      title: typeof m.title === "string" && m.title ? m.title : (typeof m.queriedTitle === "string" ? m.queriedTitle : "Untitled"),
+      title:
+        typeof m.title === "string" && m.title
+          ? m.title
+          : typeof m.queriedTitle === "string"
+          ? m.queriedTitle
+          : "Untitled",
       year: typeof m.year === "number" && Number.isFinite(m.year) ? m.year : null,
       imdbID: typeof m.imdbID === "string" ? m.imdbID : null,
-      imdbRating: typeof m.imdbRating === "number" && Number.isFinite(m.imdbRating) ? m.imdbRating : null,
+      imdbRating:
+        typeof m.imdbRating === "number" && Number.isFinite(m.imdbRating) ? m.imdbRating : null,
       poster: typeof m.poster === "string" ? m.poster : null,
       genres: Array.isArray(m.genres) ? m.genres.filter((g) => typeof g === "string") : [],
       cast: Array.isArray(m.cast) ? m.cast.filter((c) => typeof c === "string") : [],
       director: typeof m.director === "string" ? m.director : null,
-      runtimeMinutes: typeof m.runtimeMinutes === "number" && Number.isFinite(m.runtimeMinutes) ? m.runtimeMinutes : null,
+      runtimeMinutes:
+        typeof m.runtimeMinutes === "number" && Number.isFinite(m.runtimeMinutes)
+          ? m.runtimeMinutes
+          : null,
       plot: typeof m.plot === "string" ? m.plot : null,
       rated: typeof m.rated === "string" ? m.rated : null,
     };
@@ -96,7 +201,8 @@
 
   function normalizeFailedMovie(m) {
     return {
-      queriedTitle: typeof m.queriedTitle === "string" && m.queriedTitle ? m.queriedTitle : "Untitled",
+      queriedTitle:
+        typeof m.queriedTitle === "string" && m.queriedTitle ? m.queriedTitle : "Untitled",
       error: typeof m.error === "string" ? m.error : "unknown",
       message: typeof m.message === "string" ? m.message : "Could not load this title",
     };
@@ -140,8 +246,12 @@
       ? (ratings.reduce((sum, m) => sum + m.imdbRating, 0) / ratings.length).toFixed(1)
       : "—";
 
-    const highest = ratings.length ? ratings.reduce((a, b) => (b.imdbRating > a.imdbRating ? b : a)) : null;
-    const lowest = ratings.length ? ratings.reduce((a, b) => (b.imdbRating < a.imdbRating ? b : a)) : null;
+    const highest = ratings.length
+      ? ratings.reduce((a, b) => (b.imdbRating > a.imdbRating ? b : a))
+      : null;
+    const lowest = ratings.length
+      ? ratings.reduce((a, b) => (b.imdbRating < a.imdbRating ? b : a))
+      : null;
 
     const withYear = allMovies.filter((m) => typeof m.year === "number");
     const oldest = withYear.length ? withYear.reduce((a, b) => (b.year < a.year ? b : a)) : null;
@@ -221,6 +331,14 @@
       elm.addEventListener("change", applyAndRender)
     );
 
+    // Search: debounced so we don't re-render on every keystroke.
+    let searchTimeout = null;
+    els.search.addEventListener("input", () => {
+      if (searchTimeout) clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(applyAndRender, 150);
+    });
+    els.search.addEventListener("search", applyAndRender); // fires on the native ✕ button
+
     els.detailClose.addEventListener("click", closeDetail);
     els.overlay.addEventListener("click", (e) => {
       if (e.target === els.overlay) closeDetail();
@@ -237,11 +355,29 @@
     const year = els.year.value;
     const minRating = parseFloat(els.rating.value);
     const sortMode = els.sort.value;
+    const query = (els.search.value || "").trim().toLowerCase();
 
     let list = allMovies.filter((m) => {
       if (genre !== "all" && !m.genres.includes(genre)) return false;
       if (year !== "all" && String(m.year) !== year) return false;
-      if (minRating > 0 && !(typeof m.imdbRating === "number" && m.imdbRating >= minRating)) return false;
+      if (
+        minRating > 0 &&
+        !(typeof m.imdbRating === "number" && m.imdbRating >= minRating)
+      )
+        return false;
+
+      if (query) {
+        const haystack = [
+          m.title,
+          m.director || "",
+          ...(m.cast || []),
+          ...(m.genres || []),
+        ]
+          .join(" ")
+          .toLowerCase();
+        if (!haystack.includes(query)) return false;
+      }
+
       return true;
     });
 
@@ -293,11 +429,14 @@
 
     els.empty.hidden = true;
 
-    list.forEach((m) => {
+    list.forEach((m, i) => {
       try {
-        els.grid.appendChild(buildMovieCard(m));
+        const card = buildMovieCard(m);
+        // Stagger the entrance animation — capped so long lists don't
+        // take forever to finish animating in.
+        card.style.animationDelay = `${Math.min(i * 0.02, 0.5)}s`;
+        els.grid.appendChild(card);
       } catch (err) {
-        // One malformed entry should never take down the whole grid.
         console.error("Skipped a movie card that failed to render:", err);
       }
     });
@@ -336,7 +475,9 @@
     posterWrap.appendChild(buildPoster(m));
 
     if (typeof m.imdbRating === "number") {
-      posterWrap.appendChild(el("div", { className: "rating-badge", text: `★ ${m.imdbRating.toFixed(1)}` }));
+      posterWrap.appendChild(
+        el("div", { className: "rating-badge", text: `★ ${m.imdbRating.toFixed(1)}` })
+      );
     }
 
     const cast = m.cast.slice(0, 3).join(", ");
@@ -384,7 +525,10 @@
         ? "API key issue"
         : m.error === "rate_limited"
         ? "Rate limited"
-        : m.error === "network_error" || m.error === "http_error" || m.error === "timeout" || m.error === "malformed_response"
+        : m.error === "network_error" ||
+          m.error === "http_error" ||
+          m.error === "timeout" ||
+          m.error === "malformed_response"
         ? "Network error"
         : "Not found";
 
@@ -422,7 +566,11 @@
           img.alt = `${m.title} poster`;
           return img;
         })()
-      : el("div", { className: "poster-placeholder", text: m.title, attrs: { style: "aspect-ratio:2/3;" } });
+      : el("div", {
+          className: "poster-placeholder",
+          text: m.title,
+          attrs: { style: "aspect-ratio:2/3;" },
+        });
 
     const right = document.createElement("div");
     right.appendChild(el("h2", { text: m.title, attrs: { id: "detail-title" } }));
@@ -431,7 +579,8 @@
     facts.appendChild(el("span", { text: m.year !== null ? String(m.year) : "—" }));
     if (m.runtimeMinutes) facts.appendChild(el("span", { text: `${m.runtimeMinutes} min` }));
     if (m.rated) facts.appendChild(el("span", { text: m.rated }));
-    if (typeof m.imdbRating === "number") facts.appendChild(el("span", { text: `★ ${m.imdbRating.toFixed(1)} IMDb` }));
+    if (typeof m.imdbRating === "number")
+      facts.appendChild(el("span", { text: `★ ${m.imdbRating.toFixed(1)} IMDb` }));
     right.appendChild(facts);
 
     if (m.plot) right.appendChild(el("p", { className: "detail-plot", text: m.plot }));
