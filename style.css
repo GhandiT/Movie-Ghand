@@ -815,4 +815,19 @@ a:hover { color: var(--brass-bright); }
   }
 
   .result-count {
-    margin
+    margin-left: 0;
+    width: 100%;
+    order: 10;
+  }
+
+  #back-to-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 42px;
+    height: 42px;
+  }
+
+  .welcome-card {
+    padding: 2.25rem 1.5rem 2rem;
+  }
+}
