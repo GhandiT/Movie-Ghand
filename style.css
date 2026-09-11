@@ -310,8 +310,11 @@ a { color: var(--brass); }
   font-size: 0.9em;
 }
 
-/* ---------- detail overlay ---------- */
+.empty-state[hidden] { display: none; }
 
+
+/* ---------- detail overlay ---------- */
+.detail-overlay[hidden] { display: none; }
 .detail-overlay {
   position: fixed;
   inset: 0;
