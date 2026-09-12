@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T20:18:53.591Z",
-  "sourceCount": 257,
+  "generatedAt": "2026-09-12T07:19:23.956Z",
+  "sourceCount": 263,
   "movies": [
     {
       "queriedTitle": "Hancock",
@@ -75,11 +75,28 @@
       "fetchedAt": "2026-09-11T13:04:54.322Z"
     },
     {
-      "queriedTitle": "bad boy 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:34.895Z"
+      "queriedTitle": "bad boys",
+      "ok": true,
+      "title": "Bad Boys",
+      "year": 1995,
+      "imdbID": "tt0112442",
+      "imdbRating": 6.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWNjZWEwNDMtMWE1ZC00MTgwLTk2YzAtYmE0NTkwOWVhMDI0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "cast": [
+        "Will Smith",
+        "Martin Lawrence",
+        "Lisa Boyle"
+      ],
+      "director": "Michael Bay",
+      "runtimeMinutes": 119,
+      "plot": "Two hip detectives protect a witness to a murder while investigating a case of stolen heroin from the evidence storage room from their police precinct.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:01.374Z"
     },
     {
       "queriedTitle": "extinction",
@@ -343,27 +360,28 @@
       "fetchedAt": "2026-09-11T13:04:58.103Z"
     },
     {
-      "queriedTitle": "Mask",
+      "queriedTitle": "the Mask",
       "ok": true,
-      "title": "Mask",
-      "year": 1985,
-      "imdbID": "tt0089560",
-      "imdbRating": 7.2,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzU1ZDFkYjAtZGMzNC00MjJjLWI5ZjQtZTE4Y2QzOWVhNjcxXkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "The Mask",
+      "year": 1994,
+      "imdbID": "tt0110475",
+      "imdbRating": 7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGNmNjI0ZmMtMzI5MC00ZjUyLWFlZDEtYjUyMGZlN2E3N2E2XkEyXkFqcGc@._V1_SX300.jpg",
       "genres": [
-        "Biography",
-        "Drama"
+        "Comedy",
+        "Crime",
+        "Fantasy"
       ],
       "cast": [
-        "Cher",
-        "Eric Stoltz",
-        "Sam Elliott"
+        "Jim Carrey",
+        "Cameron Diaz",
+        "Peter Riegert"
       ],
-      "director": "Peter Bogdanovich",
-      "runtimeMinutes": 120,
-      "plot": "A teenager with a massive facial skull deformity and biker gang mother attempt to live as normal a life as possible under the circumstances.",
+      "director": "Chuck Russell",
+      "runtimeMinutes": 101,
+      "plot": "Bank clerk Stanley Ipkiss is transformed into a manic superhero when he wears a mysterious mask.",
       "rated": "PG-13",
-      "fetchedAt": "2026-09-11T13:04:58.415Z"
+      "fetchedAt": "2026-09-12T07:19:01.701Z"
     },
     {
       "queriedTitle": "Thor",
@@ -651,11 +669,28 @@
       "fetchedAt": "2026-09-11T20:18:35.217Z"
     },
     {
-      "queriedTitle": "Ant-Man 2 (with the Wasp)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:35.527Z"
+      "queriedTitle": "Ant-Man and the Wasp",
+      "ok": true,
+      "title": "Ant-Man and the Wasp",
+      "year": 2018,
+      "imdbID": "tt5095030",
+      "imdbRating": 7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BODVkY2ZmZTAtYzFhMi00YzZlLWE2YWMtMDBiYjY2OTU4ZWM0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "cast": [
+        "Paul Rudd",
+        "Evangeline Lilly",
+        "Michael Peña"
+      ],
+      "director": "Peyton Reed",
+      "runtimeMinutes": 118,
+      "plot": "As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:01.998Z"
     },
     {
       "queriedTitle": "Hulk",
@@ -705,40 +740,76 @@
       "fetchedAt": "2026-09-11T13:05:03.102Z"
     },
     {
-      "queriedTitle": "Guardians of the Galaxy 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:35.837Z"
-    },
-    {
-      "queriedTitle": "Guardians of the Galaxy 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:36.147Z"
-    },
-    {
-      "queriedTitle": "Shazam",
+      "queriedTitle": "Guardians of the Galaxy",
       "ok": true,
-      "title": "Shazam",
-      "year": 2017,
-      "imdbID": "tt6723576",
-      "imdbRating": 7.9,
-      "poster": "https://m.media-amazon.com/images/M/MV5BODVjYzQ3ZmUtMWU0Yi00OGFlLWIyYTEtNjEyMjcwOTMyZjNjXkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "imdbID": "tt2015381",
+      "imdbRating": 8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2ZmNjQ2MzAtNDlhNi00MmQyLWJhZDMtNmJiMjFlOWY4MzcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
       "genres": [
-        "Short",
-        "Family"
+        "Action",
+        "Adventure",
+        "Comedy"
       ],
       "cast": [
-        "Roman Dior Degeddingseze",
-        "Christopher Mychael Watson"
+        "Chris Pratt",
+        "Vin Diesel",
+        "Bradley Cooper"
       ],
-      "director": "Royston Innes",
-      "runtimeMinutes": 6,
-      "plot": "A father teaches his son about the harsh realities of being a black man in a new and inventive way.",
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:05:04.038Z"
+      "director": "James Gunn",
+      "runtimeMinutes": 121,
+      "plot": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:02.284Z"
+    },
+    {
+      "queriedTitle": "Guardians of the Galaxy Vol. 2",
+      "ok": true,
+      "title": "Guardians of the Galaxy: Vol. 2",
+      "year": 2017,
+      "imdbID": "tt3896198",
+      "imdbRating": 7.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWE5MGI3MDctMmU5Ni00YzI2LWEzMTQtZGIyZDA5MzQzNDBhXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "cast": [
+        "Chris Pratt",
+        "Zoe Saldaña",
+        "Dave Bautista"
+      ],
+      "director": "James Gunn",
+      "runtimeMinutes": 136,
+      "plot": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father, the ambitious celestial being Ego.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:02.571Z"
+    },
+    {
+      "queriedTitle": "Shazam!",
+      "ok": true,
+      "title": "Shazam!",
+      "year": 2019,
+      "imdbID": "tt0448115",
+      "imdbRating": 7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWM1YjdmOGQtNGYyMC00NjMwLTk1OWUtMGYzM2NjYjliYzYyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "cast": [
+        "Zachary Levi",
+        "Mark Strong",
+        "Asher Angel"
+      ],
+      "director": "David F. Sandberg",
+      "runtimeMinutes": 132,
+      "plot": "A newly fostered young boy in search of his mother instead finds unexpected super powers and soon gains a powerful enemy.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:02.851Z"
     },
     {
       "queriedTitle": "Dracula Untold",
@@ -909,39 +980,105 @@
       "fetchedAt": "2026-09-11T13:05:06.217Z"
     },
     {
-      "queriedTitle": "X-Men 1 (2000)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:36.471Z"
+      "queriedTitle": "X-Men",
+      "ok": true,
+      "title": "X-Men",
+      "year": 2000,
+      "imdbID": "tt0120903",
+      "imdbRating": 7.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzNjZjQwOTAtNWQ3NC00MmJlLThlZDEtZmUyMWQ3NmE4Y2Y5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Patrick Stewart",
+        "Hugh Jackman",
+        "Ian McKellen"
+      ],
+      "director": "Bryan Singer",
+      "runtimeMinutes": 104,
+      "plot": "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:03.141Z"
     },
     {
       "queriedTitle": "X-Men 2",
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:36.789Z"
+      "fetchedAt": "2026-09-12T07:19:03.424Z"
     },
     {
-      "queriedTitle": "X-Men 3 (The Last Stand)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:37.110Z"
+      "queriedTitle": "X-Men: The Last Stand",
+      "ok": true,
+      "title": "X-Men: The Last Stand",
+      "year": 2006,
+      "imdbID": "tt0376994",
+      "imdbRating": 6.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMThmOWE3OWEtODJmNC00ZDEzLTk4MWUtNzEzM2RiNmJiZmU3XkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Patrick Stewart",
+        "Hugh Jackman",
+        "Halle Berry"
+      ],
+      "director": "Brett Ratner",
+      "runtimeMinutes": 104,
+      "plot": "The human government develops a cure for mutations, and Jean Grey becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:03.720Z"
     },
     {
-      "queriedTitle": "X-Men 4 (Wolverine)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:37.419Z"
+      "queriedTitle": "X-Men Origins: Wolverine",
+      "ok": true,
+      "title": "X-Men Origins: Wolverine",
+      "year": 2009,
+      "imdbID": "tt0458525",
+      "imdbRating": 6.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjQwOGEzNjUtNDgwYS00NzUzLWJhZjAtNmFlNzY2YTQyOTllXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Hugh Jackman",
+        "Liev Schreiber",
+        "Ryan Reynolds"
+      ],
+      "director": "Gavin Hood",
+      "runtimeMinutes": 107,
+      "plot": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:04.058Z"
     },
     {
-      "queriedTitle": "X-Men 5 (First Class)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:37.730Z"
+      "queriedTitle": "X-Men: First Class",
+      "ok": true,
+      "title": "X-Men: First Class",
+      "year": 2011,
+      "imdbID": "tt1270798",
+      "imdbRating": 7.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "James McAvoy",
+        "Michael Fassbender",
+        "Jennifer Lawrence"
+      ],
+      "director": "Matthew Vaughn",
+      "runtimeMinutes": 131,
+      "plot": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:04.394Z"
     },
     {
       "queriedTitle": "The Wolverine",
@@ -991,11 +1128,28 @@
       "fetchedAt": "2026-09-11T13:05:08.416Z"
     },
     {
-      "queriedTitle": "Deadpool 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:38.037Z"
+      "queriedTitle": "Deadpool",
+      "ok": true,
+      "title": "Deadpool",
+      "year": 2016,
+      "imdbID": "tt1431045",
+      "imdbRating": 8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzY3ZWU5NGQtOTViNC00ZWVmLTliNjAtNzViNzlkZWQ4YzQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Ryan Reynolds",
+        "Morena Baccarin",
+        "T.J. Miller"
+      ],
+      "director": "Tim Miller",
+      "runtimeMinutes": 108,
+      "plot": "A wisecracking mercenary gets experimented on and becomes immortal yet hideously scarred, and sets out to track down the man who ruined his looks.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:04.724Z"
     },
     {
       "queriedTitle": "X-Men: Apocalypse",
@@ -1189,26 +1343,28 @@
       "fetchedAt": "2026-09-11T13:05:11.227Z"
     },
     {
-      "queriedTitle": "Batman vs Superman",
+      "queriedTitle": "Batman v Superman: Dawn of Justice",
       "ok": true,
-      "title": "Batman Vs Superman Redub",
-      "year": 2021,
-      "imdbID": "tt27814934",
-      "imdbRating": null,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDQ5NTNlNjQtYTYxMi00NTE0LWEzMzQtMmM5NjNkNTVjMjI1XkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "Batman v Superman: Dawn of Justice",
+      "year": 2016,
+      "imdbID": "tt2975590",
+      "imdbRating": 6.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTJkYjdmYjYtOGMyNC00ZGU1LThkY2ItYTc1OTVlMmE2YWY1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
       "genres": [
-        "Short",
-        "Comedy"
+        "Action",
+        "Adventure",
+        "Sci-Fi"
       ],
       "cast": [
-        "Brian MacFarlane",
-        "Luke A. Walker"
+        "Ben Affleck",
+        "Henry Cavill",
+        "Amy Adams"
       ],
-      "director": "Brian MacFarlane",
-      "runtimeMinutes": 3,
-      "plot": "A Redub of Batman's and Superman's final battle.",
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:05:11.537Z"
+      "director": "Zack Snyder",
+      "runtimeMinutes": 151,
+      "plot": "Batman is manipulated by Lex Luthor to fear Superman. Superman´s existence is meanwhile dividing the world and he is framed for murder during an international crisis. The heroes clash and force the neutral Wonder Woman to reemerge.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:05.057Z"
     },
     {
       "queriedTitle": "Electra Woman and Dyna Girl",
@@ -1305,18 +1461,52 @@
       "fetchedAt": "2026-09-11T13:05:12.783Z"
     },
     {
-      "queriedTitle": "The Mummy 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:38.359Z"
+      "queriedTitle": "The Mummy",
+      "ok": true,
+      "title": "The Mummy",
+      "year": 1999,
+      "imdbID": "tt0120616",
+      "imdbRating": 7.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4YWE0OGMtNjU0Yi00YzIwLTk3NTktM2ZiYWQwNjM4MmMxXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "cast": [
+        "Brendan Fraser",
+        "Rachel Weisz",
+        "John Hannah"
+      ],
+      "director": "Stephen Sommers",
+      "runtimeMinutes": 124,
+      "plot": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:05.378Z"
     },
     {
-      "queriedTitle": "The Mummy 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:38.670Z"
+      "queriedTitle": "The Mummy Returns",
+      "ok": true,
+      "title": "The Mummy Returns",
+      "year": 2001,
+      "imdbID": "tt0209163",
+      "imdbRating": 6.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjdiYzVlNjUtNGI5MC00MDE5LTk0MmQtNDc0YzIzOGRmMDNkXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "cast": [
+        "Brendan Fraser",
+        "Rachel Weisz",
+        "John Hannah"
+      ],
+      "director": "Stephen Sommers",
+      "runtimeMinutes": 130,
+      "plot": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:05.699Z"
     },
     {
       "queriedTitle": "The Mummy 3",
@@ -1342,18 +1532,52 @@
       "fetchedAt": "2026-09-11T13:05:13.730Z"
     },
     {
-      "queriedTitle": "Maleficent 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:38.977Z"
+      "queriedTitle": "Maleficent",
+      "ok": true,
+      "title": "Maleficent",
+      "year": 2014,
+      "imdbID": "tt1587310",
+      "imdbRating": 6.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAwMzAzMzExOF5BMl5BanBnXkFtZTgwOTcwMDA5MTE@._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "cast": [
+        "Angelina Jolie",
+        "Elle Fanning",
+        "Sharlto Copley"
+      ],
+      "director": "Robert Stromberg",
+      "runtimeMinutes": 97,
+      "plot": "A vengeful fairy is driven to curse an infant princess, only to discover that the child could be the one person who can restore peace to their troubled land.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-12T07:19:05.985Z"
     },
     {
-      "queriedTitle": "Maleficent 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:39.295Z"
+      "queriedTitle": "Maleficent: Mistress of Evil",
+      "ok": true,
+      "title": "Maleficent: Mistress of Evil",
+      "year": 2019,
+      "imdbID": "tt4777008",
+      "imdbRating": 6.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTY4YjYwYzMtYTg1NC00ZmJiLTk0OTYtMWMzM2Y4Yzc5MDc2XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "cast": [
+        "Angelina Jolie",
+        "Elle Fanning",
+        "Harris Dickinson"
+      ],
+      "director": "Joachim Rønning",
+      "runtimeMinutes": 119,
+      "plot": "Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies, and dark new forces at play.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-12T07:19:06.274Z"
     },
     {
       "queriedTitle": "Spider-Man: Homecoming",
@@ -1380,11 +1604,28 @@
       "fetchedAt": "2026-09-11T13:05:14.650Z"
     },
     {
-      "queriedTitle": "Men in Black 1 (Chris Hemsworth)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:39.605Z"
+      "queriedTitle": "Men in Black: International",
+      "ok": true,
+      "title": "Men in Black: International",
+      "year": 2019,
+      "imdbID": "tt2283336",
+      "imdbRating": 5.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTI0ZjJlODYtNTAyOS00ZDk4LTk0M2ItNDljMzY5NmZkYTRkXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "cast": [
+        "Chris Hemsworth",
+        "Tessa Thompson",
+        "Kumail Nanjiani"
+      ],
+      "director": "F. Gary Gray",
+      "runtimeMinutes": 114,
+      "plot": "The MIB tackle a mole in their organization.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:06.557Z"
     },
     {
       "queriedTitle": "Ronaldo",
@@ -1458,43 +1699,100 @@
       "fetchedAt": "2026-09-11T13:05:15.890Z"
     },
     {
-      "queriedTitle": "I as in Icarus",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:39.913Z"
-    },
-    {
-      "queriedTitle": "John Wick 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:40.220Z"
-    },
-    {
-      "queriedTitle": "John Wick 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:40.531Z"
-    },
-    {
-      "queriedTitle": "John Wick 3",
+      "queriedTitle": "I... For Icarus",
       "ok": true,
-      "title": "John Wick 3: Truth Serum",
-      "year": 2019,
-      "imdbID": "tt18304288",
-      "imdbRating": null,
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTA2Nzg3N2UtYzFkZS00N2NiLWFkODQtMzZlZjZmNWUwZDY2XkEyXkFqcGdeQXVyNjQwMjYzNjY@._V1_SX300.jpg",
+      "title": "I... For Icarus",
+      "year": 1979,
+      "imdbID": "tt0079322",
+      "imdbRating": 7.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGIwM2EtNmM1My00NTYxLTg0OGYtZDY2ZmI0MWQ0NmE0XkEyXkFqcGc@._V1_SX300.jpg",
       "genres": [
-        "Short"
+        "Crime",
+        "Drama",
+        "Mystery"
       ],
-      "cast": [],
-      "director": null,
-      "runtimeMinutes": null,
-      "plot": null,
+      "cast": [
+        "Yves Montand",
+        "Michel Albertini",
+        "Roland Amstutz"
+      ],
+      "director": "Henri Verneuil",
+      "runtimeMinutes": 123,
+      "plot": "Conspiracy thriller inspired by the conspiracy theories surrounding the assassination of JFK. After a fictional president is assassinated, a determined, tough prosecutor investigates the emerging conspiracy behind it.",
       "rated": null,
-      "fetchedAt": "2026-09-11T13:05:17.131Z"
+      "fetchedAt": "2026-09-12T07:19:06.840Z"
+    },
+    {
+      "queriedTitle": "John Wick",
+      "ok": true,
+      "title": "John Wick",
+      "year": 2014,
+      "imdbID": "tt2911666",
+      "imdbRating": 7.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "cast": [
+        "Keanu Reeves",
+        "Michael Nyqvist",
+        "Alfie Allen"
+      ],
+      "director": "Chad Stahelski",
+      "runtimeMinutes": 101,
+      "plot": "John Wick is a former hitman grieving the loss of his true love. When his home is broken into, robbed, and his dog killed, he is forced to return to action to exact revenge.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:07.122Z"
+    },
+    {
+      "queriedTitle": "John Wick: Chapter 2",
+      "ok": true,
+      "title": "John Wick: Chapter 2",
+      "year": 2017,
+      "imdbID": "tt4425200",
+      "imdbRating": 7.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE2NDkxNTY2M15BMl5BanBnXkFtZTgwMDc2NzE0MTI@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "cast": [
+        "Keanu Reeves",
+        "Riccardo Scamarcio",
+        "Ian McShane"
+      ],
+      "director": "Chad Stahelski",
+      "runtimeMinutes": 122,
+      "plot": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:07.403Z"
+    },
+    {
+      "queriedTitle": "John Wick: Chapter 3 – Parabellum",
+      "ok": true,
+      "title": "John Wick: Chapter 3 - Parabellum",
+      "year": 2019,
+      "imdbID": "tt6146586",
+      "imdbRating": 7.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjdlNWFlZjEtM2U0NS00ZWU5LTk1M2EtZmQxNWFiZjk0MGM5XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "cast": [
+        "Keanu Reeves",
+        "Halle Berry",
+        "Ian McShane"
+      ],
+      "director": "Chad Stahelski",
+      "runtimeMinutes": 130,
+      "plot": "John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:07.693Z"
     },
     {
       "queriedTitle": "Spider-Man: Far From Home",
@@ -1521,60 +1819,162 @@
       "fetchedAt": "2026-09-11T13:05:17.450Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Sorcerer's Stone (1)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:40.844Z"
+      "queriedTitle": "Harry Potter and the Sorcerer's Stone",
+      "ok": true,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "imdbID": "tt0241527",
+      "imdbRating": 7.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson"
+      ],
+      "director": "Chris Columbus",
+      "runtimeMinutes": 152,
+      "plot": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-12T07:19:07.977Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Chamber of Secrets (2)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:41.159Z"
+      "queriedTitle": "Harry Potter and the Chamber of Secrets",
+      "ok": true,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "imdbID": "tt0295297",
+      "imdbRating": 7.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGJhM2M2MWYtZjIzMC00MDZmLThkY2EtOWViMDhhYjRhMzk4XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson"
+      ],
+      "director": "Chris Columbus",
+      "runtimeMinutes": 161,
+      "plot": "Harry Potter lives his second year at Hogwarts with Ron and Hermione when a message on the wall announces that the legendary Chamber of Secrets has been opened. The trio soon realize that, to save the school, it will take a lot of...",
+      "rated": "PG",
+      "fetchedAt": "2026-09-12T07:19:08.260Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Prisoner of Azkaban (3)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:41.481Z"
+      "queriedTitle": "Harry Potter and the Prisoner of Azkaban",
+      "ok": true,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "imdbID": "tt0304141",
+      "imdbRating": 7.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint"
+      ],
+      "director": "Alfonso Cuarón",
+      "runtimeMinutes": 142,
+      "plot": "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-12T07:19:08.543Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Goblet of Fire (4)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:41.793Z"
+      "queriedTitle": "Harry Potter and the Goblet of Fire",
+      "ok": true,
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "imdbID": "tt0330373",
+      "imdbRating": 7.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTIzNzUzOTk2NV5BMl5BanBnXkFtZTYwNTI4MDg2._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint"
+      ],
+      "director": "Mike Newell",
+      "runtimeMinutes": 157,
+      "plot": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:08.825Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Order of the Phoenix (5)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:42.102Z"
+      "queriedTitle": "Harry Potter and the Order of the Phoenix",
+      "ok": true,
+      "title": "Harry Potter and the Order of the Phoenix",
+      "year": 2007,
+      "imdbID": "tt0373889",
+      "imdbRating": 7.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWJmM2M1YzItMjY1Ni00YzRmLTg5YWYtNDFmNTJjNzQ0ODkyXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Family"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint"
+      ],
+      "director": "David Yates",
+      "runtimeMinutes": 138,
+      "plot": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:09.109Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Half-Blood Prince (6)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:42.414Z"
+      "queriedTitle": "Harry Potter and the Half-Blood Prince",
+      "ok": true,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "year": 2009,
+      "imdbID": "tt0417741",
+      "imdbRating": 7.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Family"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint"
+      ],
+      "director": "David Yates",
+      "runtimeMinutes": 153,
+      "plot": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-12T07:19:09.393Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Deathly Hallows 1 (7)",
+      "queriedTitle": "Harry Potter and the Deathly Hallows 1",
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:42.723Z"
+      "fetchedAt": "2026-09-12T07:19:09.684Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Deathly Hallows 2 (8)",
+      "queriedTitle": "Harry Potter and the Deathly Hallows 2",
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:43.038Z"
+      "fetchedAt": "2026-09-12T07:19:09.969Z"
     },
     {
       "queriedTitle": "Jojo Rabbit",
@@ -1715,11 +2115,28 @@
       "fetchedAt": "2026-09-11T13:05:21.824Z"
     },
     {
-      "queriedTitle": "Terminal (Margot Robbie)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:43.349Z"
+      "queriedTitle": "Terminal",
+      "ok": true,
+      "title": "Terminal",
+      "year": 2018,
+      "imdbID": "tt4463816",
+      "imdbRating": 5.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTliYzYyYTAtNzBjMy00MGE2LThmOWMtZWM1ZmI0MDE1ZjM3XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "cast": [
+        "Margot Robbie",
+        "Simon Pegg",
+        "Dexter Fletcher"
+      ],
+      "director": "Vaughn Stein",
+      "runtimeMinutes": 95,
+      "plot": "A film noir taking place in a train terminal at night. Add two male assassins, a female assassin, a waitress, a teacher, a janitor, and a crime boss. Add revenge. Who says mystery is a lost art?",
+      "rated": "Not Rated",
+      "fetchedAt": "2026-09-12T07:19:10.257Z"
     },
     {
       "queriedTitle": "Tully",
@@ -1913,11 +2330,28 @@
       "fetchedAt": "2026-09-11T13:05:24.625Z"
     },
     {
-      "queriedTitle": "Mulholland Road",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:43.653Z"
+      "queriedTitle": "Mulholland Drive",
+      "ok": true,
+      "title": "Mulholland Drive",
+      "year": 2001,
+      "imdbID": "tt0166924",
+      "imdbRating": 7.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjliY2UwMjQtYjVlNi00NzExLTg1MDMtMjE2OTYwYjI0NTcxXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast": [
+        "Naomi Watts",
+        "Laura Harring",
+        "Justin Theroux"
+      ],
+      "director": "David Lynch",
+      "runtimeMinutes": 147,
+      "plot": "After a car wreck on Mulholland Drive renders a woman amnesiac, she and a Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:10.539Z"
     },
     {
       "queriedTitle": "Lucy in the Sky",
@@ -2135,25 +2569,74 @@
       "fetchedAt": "2026-09-11T13:05:27.769Z"
     },
     {
-      "queriedTitle": "I Am Legend (Will Smith)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:43.958Z"
+      "queriedTitle": "I Am Legend",
+      "ok": true,
+      "title": "I Am Legend",
+      "year": 2007,
+      "imdbID": "tt0480249",
+      "imdbRating": 7.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGE1OWZkZmItNmVhMC00YzAxLTgxOTctNjg3NWExM2RmOWJkXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Will Smith",
+        "Alice Braga",
+        "Charlie Tahan"
+      ],
+      "director": "Francis Lawrence",
+      "runtimeMinutes": 101,
+      "plot": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:10.823Z"
     },
     {
-      "queriedTitle": "Night School (Kevin Hart)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:44.263Z"
+      "queriedTitle": "Night School",
+      "ok": true,
+      "title": "Night School",
+      "year": 2018,
+      "imdbID": "tt6781982",
+      "imdbRating": 5.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmJjMjMwNDQtMjU3ZS00ZDY3LThmMmEtZjBkM2NiZWM4ZmQ1XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Comedy"
+      ],
+      "cast": [
+        "Kevin Hart",
+        "Tiffany Haddish",
+        "Rob Riggle"
+      ],
+      "director": "Malcolm D. Lee",
+      "runtimeMinutes": 111,
+      "plot": "A group of high school dropouts is forced to attend night school in hopes that they will pass the GED exam to finish high school.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:11.113Z"
     },
     {
-      "queriedTitle": "Bright (Will Smith)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:44.567Z"
+      "queriedTitle": "Bright",
+      "ok": true,
+      "title": "Bright",
+      "year": 2017,
+      "imdbID": "tt5519340",
+      "imdbRating": 6.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTcyNzk5NDg1Nl5BMl5BanBnXkFtZTgwNTM5MDQxNDM@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Thriller"
+      ],
+      "cast": [
+        "Will Smith",
+        "Joel Edgerton",
+        "Noomi Rapace"
+      ],
+      "director": "David Ayer",
+      "runtimeMinutes": 117,
+      "plot": "A detective must work with an Orc to find a powerful wand before evil creatures do.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-09-12T07:19:11.418Z"
     },
     {
       "queriedTitle": "Extraction",
@@ -2180,11 +2663,26 @@
       "fetchedAt": "2026-09-11T13:05:29.003Z"
     },
     {
-      "queriedTitle": "The Second Act (JLo)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:44.874Z"
+      "queriedTitle": "The Second Act",
+      "ok": true,
+      "title": "The Second Act",
+      "year": 2024,
+      "imdbID": "tt30784256",
+      "imdbRating": 6.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWZhZDAzMWUtMjk4MS00MWZiLThjNGUtYWFjMjcxMWM4MWYzXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Comedy"
+      ],
+      "cast": [
+        "Léa Seydoux",
+        "Vincent Lindon",
+        "Louis Garrel"
+      ],
+      "director": "Quentin Dupieux",
+      "runtimeMinutes": 80,
+      "plot": "Florence wants to introduce David, the man she's madly in love with, to her father. But David isn't attracted to her and wants to throw her into the arms of his friend Willy. The characters meet in a restaurant in the middle of no...",
+      "rated": null,
+      "fetchedAt": "2026-09-12T07:19:11.748Z"
     },
     {
       "queriedTitle": "Game Night",
@@ -2328,11 +2826,28 @@
       "fetchedAt": "2026-09-11T13:05:31.194Z"
     },
     {
-      "queriedTitle": "Rogue (Megan Fox)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:45.183Z"
+      "queriedTitle": "Rogue",
+      "ok": true,
+      "title": "Rogue",
+      "year": 2007,
+      "imdbID": "tt0479528",
+      "imdbRating": 6.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzY0YjlkMjEtM2IzOS00ZGQyLTgzM2YtZGIxYTVmMDVkMGU1XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Drama",
+        "Horror"
+      ],
+      "cast": [
+        "Michael Vartan",
+        "Radha Mitchell",
+        "Sam Worthington"
+      ],
+      "director": "Greg McLean",
+      "runtimeMinutes": 99,
+      "plot": "An American journalist on assignment in the Australian outback encounters a man-eating crocodile while trapped on a rapidly flooding mud island.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:12.132Z"
     },
     {
       "queriedTitle": "Jungle",
@@ -2407,39 +2922,124 @@
       "fetchedAt": "2026-09-11T13:05:32.430Z"
     },
     {
-      "queriedTitle": "The Maze Runner 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:45.495Z"
+      "queriedTitle": "The Maze Runner",
+      "ok": true,
+      "title": "The Maze Runner",
+      "year": 2014,
+      "imdbID": "tt1790864",
+      "imdbRating": 6.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Dylan O'Brien",
+        "Kaya Scodelario",
+        "Will Poulter"
+      ],
+      "director": "Wes Ball",
+      "runtimeMinutes": 113,
+      "plot": "A teen with no memory of the outside world awakens in a gigantic maze guarded by deadly creatures, and plots a daring escape.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:12.429Z"
     },
     {
-      "queriedTitle": "Maze Runner 2 (The Scorch Trials)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:45.817Z"
+      "queriedTitle": "Maze Runner: The Scorch Trials",
+      "ok": true,
+      "title": "Maze Runner: The Scorch Trials",
+      "year": 2015,
+      "imdbID": "tt4046784",
+      "imdbRating": 6.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE3MDU2NzQyMl5BMl5BanBnXkFtZTgwMzQxMDQ3NTE@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Dylan O'Brien",
+        "Kaya Scodelario",
+        "Thomas Brodie-Sangster"
+      ],
+      "director": "Wes Ball",
+      "runtimeMinutes": 131,
+      "plot": "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:12.714Z"
     },
     {
-      "queriedTitle": "Maze Runner 3 (The Death Cure)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:46.125Z"
+      "queriedTitle": "Maze Runner: The Death Cure",
+      "ok": true,
+      "title": "Maze Runner: The Death Cure",
+      "year": 2018,
+      "imdbID": "tt4500922",
+      "imdbRating": 6.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYyNzk3MDc2NF5BMl5BanBnXkFtZTgwMDk3OTM1NDM@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Dylan O'Brien",
+        "Ki Hong Lee",
+        "Kaya Scodelario"
+      ],
+      "director": "Wes Ball",
+      "runtimeMinutes": 143,
+      "plot": "In a desperate attempt to save their friends, the Gladers try to infiltrate a fortified city and make it out alive.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:12.997Z"
     },
     {
-      "queriedTitle": "The Hitman's Bodyguard 1 (2017)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:46.434Z"
+      "queriedTitle": "The Hitman's Bodyguard",
+      "ok": true,
+      "title": "The Hitman's Bodyguard",
+      "year": 2017,
+      "imdbID": "tt1959563",
+      "imdbRating": 6.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc4NjAxMjU4OV5BMl5BanBnXkFtZTgwNzQyMzIwMjI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "cast": [
+        "Ryan Reynolds",
+        "Samuel L. Jackson",
+        "Gary Oldman"
+      ],
+      "director": "Patrick Hughes",
+      "runtimeMinutes": 118,
+      "plot": "Michael Bryce, a protection agent, is tasked with protecting Darius Kincaid, one of the world's most famous assassins.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:13.300Z"
     },
     {
-      "queriedTitle": "Hitman's Wife's Bodyguard 2 (2021)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:46.743Z"
+      "queriedTitle": "Hitman's Wife's Bodyguard",
+      "ok": true,
+      "title": "Hitman's Wife's Bodyguard",
+      "year": 2021,
+      "imdbID": "tt8385148",
+      "imdbRating": 6.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2ZjOWJkMTYtYTI1Yi00YTI5LTg5MWItYmU4NGU0ODViYzQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,12,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "cast": [
+        "Ryan Reynolds",
+        "Samuel L. Jackson",
+        "Salma Hayek"
+      ],
+      "director": "Patrick Hughes",
+      "runtimeMinutes": 100,
+      "plot": "The bodyguard, Michael Bryce, continues his friendship with assassin, Darius Kincaid, as they try to save Darius' wife Sonia.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:13.580Z"
     },
     {
       "queriedTitle": "Stuber",
@@ -2584,11 +3184,27 @@
       "fetchedAt": "2026-09-11T13:05:35.825Z"
     },
     {
-      "queriedTitle": "The Pursuit of Happyness (Will Smith)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:47.056Z"
+      "queriedTitle": "The Pursuit of Happyness",
+      "ok": true,
+      "title": "The Pursuit of Happyness",
+      "year": 2006,
+      "imdbID": "tt0454921",
+      "imdbRating": 8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg",
+      "genres": [
+        "Biography",
+        "Drama"
+      ],
+      "cast": [
+        "Will Smith",
+        "Thandiwe Newton",
+        "Jaden Smith"
+      ],
+      "director": "Gabriele Muccino",
+      "runtimeMinutes": 117,
+      "plot": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:13.861Z"
     },
     {
       "queriedTitle": "The Social Network",
@@ -2614,11 +3230,28 @@
       "fetchedAt": "2026-09-11T13:05:36.446Z"
     },
     {
-      "queriedTitle": "The Imitation Game (Alan Turing)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:47.368Z"
+      "queriedTitle": "The Imitation Game",
+      "ok": true,
+      "title": "The Imitation Game",
+      "year": 2014,
+      "imdbID": "tt2084970",
+      "imdbRating": 8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjI3NjY1Mjg3MV5BMl5BanBnXkFtZTgwMzk5MDQ3MjE@._V1_SX300.jpg",
+      "genres": [
+        "Biography",
+        "Drama",
+        "Thriller"
+      ],
+      "cast": [
+        "Benedict Cumberbatch",
+        "Keira Knightley",
+        "Matthew Goode"
+      ],
+      "director": "Morten Tyldum",
+      "runtimeMinutes": 114,
+      "plot": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians while attempting to come to terms with his troubled private life.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:14.142Z"
     },
     {
       "queriedTitle": "Dunkirk",
@@ -2763,11 +3396,28 @@
       "fetchedAt": "2026-09-11T13:05:38.651Z"
     },
     {
-      "queriedTitle": "Now You See Me 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:47.690Z"
+      "queriedTitle": "Now You See Me",
+      "ok": true,
+      "title": "Now You See Me",
+      "year": 2013,
+      "imdbID": "tt1670345",
+      "imdbRating": 7.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_SX300.jpg",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast": [
+        "Jesse Eisenberg",
+        "Common",
+        "Mark Ruffalo"
+      ],
+      "director": "Louis Leterrier",
+      "runtimeMinutes": 115,
+      "plot": "An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:14.429Z"
     },
     {
       "queriedTitle": "Now You See Me 2",
@@ -3148,11 +3798,28 @@
       "fetchedAt": "2026-09-11T13:05:43.952Z"
     },
     {
-      "queriedTitle": "A Quiet Place 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:48.010Z"
+      "queriedTitle": "A Quiet Place Part II",
+      "ok": true,
+      "title": "A Quiet Place Part II",
+      "year": 2020,
+      "imdbID": "tt8332922",
+      "imdbRating": 7.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjRiYjk4ZmItNGQ5NS00MmRhLTk4Y2EtMGQ1MTYxZWJhYjU0XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Emily Blunt",
+        "Millicent Simmonds",
+        "Cillian Murphy"
+      ],
+      "director": "John Krasinski",
+      "runtimeMinutes": 97,
+      "plot": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:14.712Z"
     },
     {
       "queriedTitle": "The Invisible Guest",
@@ -3249,11 +3916,28 @@
       "fetchedAt": "2026-09-11T13:05:45.505Z"
     },
     {
-      "queriedTitle": "Hansel and Gretel: Witch Hunters",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:48.319Z"
+      "queriedTitle": "Hansel & Gretel: Witch Hunters",
+      "ok": true,
+      "title": "Hansel & Gretel: Witch Hunters",
+      "year": 2013,
+      "imdbID": "tt1428538",
+      "imdbRating": 6.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjA4MDQwODg2NV5BMl5BanBnXkFtZTcwNTc5ODc2OA@@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Horror"
+      ],
+      "cast": [
+        "Jeremy Renner",
+        "Gemma Arterton",
+        "Peter Stormare"
+      ],
+      "director": "Tommy Wirkola",
+      "runtimeMinutes": 88,
+      "plot": "Brother/sister duo Hansel and Gretel are professional witch-hunters who help innocent villagers. One day they stumble upon a case that could hold the key to their past.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:14.993Z"
     },
     {
       "queriedTitle": "Kingsman: The Secret Service",
@@ -3400,18 +4084,52 @@
       "fetchedAt": "2026-09-11T13:05:47.695Z"
     },
     {
-      "queriedTitle": "The Suicide Squad 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:48.629Z"
+      "queriedTitle": "Suicide Squad",
+      "ok": true,
+      "title": "Suicide Squad",
+      "year": 2016,
+      "imdbID": "tt1386697",
+      "imdbRating": 5.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM1OTMxNzUyM15BMl5BanBnXkFtZTgwNjYzMTIzOTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "cast": [
+        "Will Smith",
+        "Jared Leto",
+        "Margot Robbie"
+      ],
+      "director": "David Ayer",
+      "runtimeMinutes": 123,
+      "plot": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:15.274Z"
     },
     {
-      "queriedTitle": "The Suicide Squad 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:48.941Z"
+      "queriedTitle": "The Suicide Squad",
+      "ok": true,
+      "title": "The Suicide Squad",
+      "year": 2021,
+      "imdbID": "tt6334354",
+      "imdbRating": 7.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWU3Y2NlZmEtMjJjNS00ZWMxLWE1MzctYWYyMjMzMDdkNTE4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "cast": [
+        "Margot Robbie",
+        "Idris Elba",
+        "John Cena"
+      ],
+      "director": "James Gunn",
+      "runtimeMinutes": 132,
+      "plot": "Supervillains Harley Quinn, Bloodsport, Peacemaker, and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:15.556Z"
     },
     {
       "queriedTitle": "Like a Boss",
@@ -3507,11 +4225,28 @@
       "fetchedAt": "2026-09-11T13:05:49.563Z"
     },
     {
-      "queriedTitle": "Jungle Cruise (The Rock)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:49.245Z"
+      "queriedTitle": "Jungle Cruise",
+      "ok": true,
+      "title": "Jungle Cruise",
+      "year": 2021,
+      "imdbID": "tt0870154",
+      "imdbRating": 6.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWU5ZTBkMjQtMzg2Yi00ZmJlLTk4YWEtYTc0ZjU1YzE1NGNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "cast": [
+        "Dwayne Johnson",
+        "Emily Blunt",
+        "Edgar Ramírez"
+      ],
+      "director": "Jaume Collet-Serra",
+      "runtimeMinutes": 127,
+      "plot": "A small riverboat takes a group of travelers through a jungle filled with dangerous animals.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:15.838Z"
     },
     {
       "queriedTitle": "Chef",
@@ -3538,11 +4273,28 @@
       "fetchedAt": "2026-09-11T13:05:50.182Z"
     },
     {
-      "queriedTitle": "Don't Breathe 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:49.556Z"
+      "queriedTitle": "Don't Breathe",
+      "ok": true,
+      "title": "Don't Breathe",
+      "year": 2016,
+      "imdbID": "tt4160708",
+      "imdbRating": 7.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjAxOTJkMmEtNjg4MC00ODk3LTkwYmUtNjM3YzE5YTk1YTFjXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Crime",
+        "Horror",
+        "Thriller"
+      ],
+      "cast": [
+        "Stephen Lang",
+        "Jane Levy",
+        "Dylan Minnette"
+      ],
+      "director": "Fede Alvarez",
+      "runtimeMinutes": 88,
+      "plot": "Three delinquents break into the house of a war veteran who is blind to steal his money. However, they discover that the man is not as defenseless as he seems.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:16.118Z"
     },
     {
       "queriedTitle": "Bloodshot",
@@ -3573,14 +4325,14 @@
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:49.867Z"
+      "fetchedAt": "2026-09-12T07:19:16.402Z"
     },
     {
       "queriedTitle": "The Fast and the Furious 4",
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:50.187Z"
+      "fetchedAt": "2026-09-12T07:19:16.686Z"
     },
     {
       "queriedTitle": "Free Guy",
@@ -3607,11 +4359,28 @@
       "fetchedAt": "2026-09-11T13:05:51.725Z"
     },
     {
-      "queriedTitle": "Train to Busan 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:50.498Z"
+      "queriedTitle": "Train to Busan",
+      "ok": true,
+      "title": "Train to Busan",
+      "year": 2016,
+      "imdbID": "tt5700672",
+      "imdbRating": 7.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTkwOTQ4OTg0OV5BMl5BanBnXkFtZTgwMzQyOTM0OTE@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Horror",
+        "Thriller"
+      ],
+      "cast": [
+        "Gong Yoo",
+        "Jung Yu-mi",
+        "Ma Dong-seok"
+      ],
+      "director": "Yeon Sang-ho",
+      "runtimeMinutes": 118,
+      "plot": "While a zombie virus breaks out in South Korea, passengers struggle to survive on the train from Seoul to Busan.",
+      "rated": "Not Rated",
+      "fetchedAt": "2026-09-12T07:19:16.965Z"
     },
     {
       "queriedTitle": "Kate",
@@ -3973,6 +4742,13 @@
       "fetchedAt": "2026-09-11T13:05:56.725Z"
     },
     {
+      "queriedTitle": "#############",
+      "ok": false,
+      "error": "not_found",
+      "message": "Movie not found!",
+      "fetchedAt": "2026-09-12T07:19:17.243Z"
+    },
+    {
       "queriedTitle": "The Adam Project",
       "ok": true,
       "title": "The Adam Project",
@@ -4140,6 +4916,30 @@
       "fetchedAt": "2026-09-11T13:05:58.893Z"
     },
     {
+      "queriedTitle": "Venom: Let There Be Carnage",
+      "ok": true,
+      "title": "Venom: Let There Be Carnage",
+      "year": 2021,
+      "imdbID": "tt7097896",
+      "imdbRating": 5.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGIxMTU1MjItM2FmMi00YmFiLTgwNDMtMTczYmVjYTBhNGZhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Crime"
+      ],
+      "cast": [
+        "Tom Hardy",
+        "Woody Harrelson",
+        "Michelle Williams"
+      ],
+      "director": "Andy Serkis",
+      "runtimeMinutes": 97,
+      "plot": "Eddie Brock attempts to reignite his career by interviewing serial killer Cletus Kasady, who becomes the host of the symbiote Carnage and escapes prison after a failed execution.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:17.525Z"
+    },
+    {
       "queriedTitle": "Source Code",
       "ok": true,
       "title": "Source Code",
@@ -4260,6 +5060,78 @@
       "fetchedAt": "2026-09-11T13:06:00.753Z"
     },
     {
+      "queriedTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "ok": true,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "imdbID": "tt0120737",
+      "imdbRating": 8.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Orlando Bloom"
+      ],
+      "director": "Peter Jackson",
+      "runtimeMinutes": 178,
+      "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:17.828Z"
+    },
+    {
+      "queriedTitle": "The Lord of the Rings: The Two Towers",
+      "ok": true,
+      "title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "imdbID": "tt0167261",
+      "imdbRating": 8.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen"
+      ],
+      "director": "Peter Jackson",
+      "runtimeMinutes": 179,
+      "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:18.112Z"
+    },
+    {
+      "queriedTitle": "The Lord of the Rings: The Return of the King",
+      "ok": true,
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "imdbID": "tt0167260",
+      "imdbRating": 9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Viggo Mortensen",
+        "Ian McKellen"
+      ],
+      "director": "Peter Jackson",
+      "runtimeMinutes": 201,
+      "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:18.398Z"
+    },
+    {
       "queriedTitle": "the age of adaline",
       "ok": true,
       "title": "The Age of Adaline",
@@ -4331,11 +5203,27 @@
       "fetchedAt": "2026-09-11T13:06:01.684Z"
     },
     {
-      "queriedTitle": "hijack (series)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:50.807Z"
+      "queriedTitle": "hijack",
+      "ok": true,
+      "title": "Hijack",
+      "year": 2023,
+      "imdbID": "tt19854762",
+      "imdbRating": 7.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDU5NjI4NjMtNGQ1Ni00YzdmLTk3NjEtNDQ4ODhlM2Q0NjYyXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "cast": [
+        "Idris Elba",
+        "Max Beesley",
+        "Christine Adams"
+      ],
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": "Sam Nelson, a master negotiator, faces a series of life-or-death situations where his skills of persuasion are his only means of survival.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-09-12T07:19:18.682Z"
     },
     {
       "queriedTitle": "interstellar",
@@ -4386,11 +5274,28 @@
       "fetchedAt": "2026-09-11T13:06:02.619Z"
     },
     {
-      "queriedTitle": "Dont worry darling",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:51.114Z"
+      "queriedTitle": "Don't worry darling",
+      "ok": true,
+      "title": "Don't Worry Darling",
+      "year": 2022,
+      "imdbID": "tt10731256",
+      "imdbRating": 6.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2I0ZDExM2EtZTQ4OC00NGQ0LWIzYjktYWE4MDMxZDZlY2MwXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast": [
+        "Florence Pugh",
+        "Harry Styles",
+        "Chris Pine"
+      ],
+      "director": "Olivia Wilde",
+      "runtimeMinutes": 123,
+      "plot": "While her husband leaves home every day to work in a top secret facility, a young 1950s housewife begins to question her life when she notices strange behavior from the other wives in the neighborhood.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:18.967Z"
     },
     {
       "queriedTitle": "The wall",
@@ -4510,11 +5415,27 @@
       "fetchedAt": "2026-09-11T13:06:04.482Z"
     },
     {
-      "queriedTitle": "Now You See Me 3",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:51.429Z"
+      "queriedTitle": "Now You See Me: Now You Don't",
+      "ok": true,
+      "title": "Now You See Me: Now You Don't",
+      "year": 2025,
+      "imdbID": "tt4712810",
+      "imdbRating": 5.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmZmZDc1Y2EtMmU2MS00NmMzLTllZmYtNjlkODFkNjZlOGE0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "cast": [
+        "Jesse Eisenberg",
+        "Woody Harrelson",
+        "Dave Franco"
+      ],
+      "director": "Ruben Fleischer",
+      "runtimeMinutes": 113,
+      "plot": "The Four Horsemen reunite and team up with a new generation of young illusionists to expose a diamond heiress's global money laundering scheme for criminals.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:19.251Z"
     },
     {
       "queriedTitle": "Pretty Woman",
@@ -4634,41 +5555,57 @@
       "fetchedAt": "2026-09-11T13:06:06.347Z"
     },
     {
-      "queriedTitle": "Rocky 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:51.756Z"
-    },
-    {
-      "queriedTitle": "Rocky 3",
+      "queriedTitle": "Rocky II",
       "ok": true,
-      "title": "Rocky 3 in the Playroom",
-      "year": 2012,
-      "imdbID": "tt3834586",
-      "imdbRating": 8.4,
-      "poster": null,
+      "title": "Rocky II",
+      "year": 1979,
+      "imdbID": "tt0079817",
+      "imdbRating": 7.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDUxMWExZDctZTk4Zi00ZDFiLTgwYWUtNjEyYzA0NWQyYTJlXkEyXkFqcGc@._V1_SX300.jpg",
       "genres": [
-        "Short",
-        "Comedy",
+        "Drama",
         "Sport"
       ],
       "cast": [
-        "James Fildes",
-        "Jessica Fildes"
+        "Sylvester Stallone",
+        "Talia Shire",
+        "Burt Young"
       ],
-      "director": null,
-      "runtimeMinutes": 6,
-      "plot": null,
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:06.967Z"
+      "director": "Sylvester Stallone",
+      "runtimeMinutes": 119,
+      "plot": "Rocky struggles in family life after his bout with Apollo Creed, while the embarrassed champ insistently goads him to accept a challenge for a rematch.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-12T07:19:19.535Z"
+    },
+    {
+      "queriedTitle": "Rocky III",
+      "ok": true,
+      "title": "Rocky III",
+      "year": 1982,
+      "imdbID": "tt0084602",
+      "imdbRating": 6.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDYzNDQ3Y2MtODc1Zi00ZTBkLWIzZWUtOGY0NGZmYWZhMWQ5XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Drama",
+        "Sport"
+      ],
+      "cast": [
+        "Sylvester Stallone",
+        "Talia Shire",
+        "Burt Young"
+      ],
+      "director": "Sylvester Stallone",
+      "runtimeMinutes": 99,
+      "plot": "Rocky faces the ultimate challenge from a powerful new contender, and must turn to a former rival to help regain his throne as the undisputed fighting champion.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-12T07:19:19.823Z"
     },
     {
       "queriedTitle": "Rocky 4",
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:52.069Z"
+      "fetchedAt": "2026-09-12T07:19:20.119Z"
     },
     {
       "queriedTitle": "Downfall",
@@ -4741,11 +5678,28 @@
       "fetchedAt": "2026-09-11T13:06:08.222Z"
     },
     {
-      "queriedTitle": "Die hart 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:52.394Z"
+      "queriedTitle": "Die hart",
+      "ok": true,
+      "title": "Die Hart",
+      "year": 2020,
+      "imdbID": "tt10726424",
+      "imdbRating": 5.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmEzYzNkMDItYThkNy00NjQ0LWE3NDItNTYzYjIwNzJmZWI1XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "genres": [
+        "Short",
+        "Action",
+        "Comedy"
+      ],
+      "cast": [
+        "Kevin Hart",
+        "Nathalie Emmanuel",
+        "John Travolta"
+      ],
+      "director": null,
+      "runtimeMinutes": 2,
+      "plot": "Kevin Hart - playing a version of himself - is on a death-defying quest to become an action star.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-09-12T07:19:20.481Z"
     },
     {
       "queriedTitle": "deadpool 2",
@@ -4812,43 +5766,73 @@
       "fetchedAt": "2026-09-11T13:06:09.458Z"
     },
     {
-      "queriedTitle": "The Hobbit: An Unexpected Journey (2012)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:52.720Z"
+      "queriedTitle": "The Hobbit: An Unexpected Journey",
+      "ok": true,
+      "title": "The Hobbit: An Unexpected Journey",
+      "year": 2012,
+      "imdbID": "tt0903624",
+      "imdbRating": 7.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "cast": [
+        "Martin Freeman",
+        "Ian McKellen",
+        "Richard Armitage"
+      ],
+      "director": "Peter Jackson",
+      "runtimeMinutes": 169,
+      "plot": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home and the gold within it from the dragon Smaug.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:20.786Z"
     },
     {
-      "queriedTitle": "The Hobbit: The Desolation of Smaug (2013)",
+      "queriedTitle": "The Hobbit: The Desolation of Smaug",
       "ok": true,
-      "title": "The Hobbit: The Desolation of Smaug (2013) - Featuring Mary Clay Watt",
+      "title": "The Hobbit: The Desolation of Smaug",
       "year": 2013,
-      "imdbID": "tt17977432",
-      "imdbRating": null,
-      "poster": null,
-      "genres": [],
-      "cast": [],
-      "director": null,
-      "runtimeMinutes": null,
-      "plot": null,
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:10.071Z"
+      "imdbID": "tt1170358",
+      "imdbRating": 7.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "cast": [
+        "Ian McKellen",
+        "Martin Freeman",
+        "Richard Armitage"
+      ],
+      "director": "Peter Jackson",
+      "runtimeMinutes": 161,
+      "plot": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim the Lonely Mountain, their homeland, from the dragon Smaug.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:21.068Z"
     },
     {
-      "queriedTitle": "The Hobbit: The Battle of the Five Armies (2014)",
+      "queriedTitle": "The Hobbit: The Battle of the Five Armies",
       "ok": true,
-      "title": "The Hobbit: The Battle of the Five Armies (2014)",
+      "title": "The Hobbit: The Battle of the Five Armies",
       "year": 2014,
-      "imdbID": "tt25211934",
-      "imdbRating": null,
-      "poster": null,
-      "genres": [],
-      "cast": [],
-      "director": null,
-      "runtimeMinutes": null,
-      "plot": null,
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:10.383Z"
+      "imdbID": "tt2310332",
+      "imdbRating": 7.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzNDE3OTQ3MF5BMl5BanBnXkFtZTgwODczMTg4MjE@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "cast": [
+        "Ian McKellen",
+        "Martin Freeman",
+        "Richard Armitage"
+      ],
+      "director": "Peter Jackson",
+      "runtimeMinutes": 144,
+      "plot": "Bilbo Baggins and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
+      "rated": "R",
+      "fetchedAt": "2026-09-12T07:19:21.353Z"
     },
     {
       "queriedTitle": "Black Panther",
@@ -4899,66 +5883,123 @@
       "fetchedAt": "2026-09-11T13:06:11.014Z"
     },
     {
-      "queriedTitle": "Spider-Man (2002)",
+      "queriedTitle": "Spider-Man",
       "ok": true,
-      "title": "Spider-Man (2002)",
+      "title": "Spider-Man",
       "year": 2002,
-      "imdbID": "tt17979362",
-      "imdbRating": null,
-      "poster": null,
-      "genres": [],
-      "cast": [],
-      "director": null,
-      "runtimeMinutes": null,
-      "plot": null,
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:11.325Z"
+      "imdbID": "tt0145487",
+      "imdbRating": 7.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "Willem Dafoe"
+      ],
+      "director": "Sam Raimi",
+      "runtimeMinutes": 121,
+      "plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:21.638Z"
     },
     {
-      "queriedTitle": "Spider-Man 2 (2004)",
+      "queriedTitle": "Spider-Man 2",
       "ok": true,
-      "title": "Spider-Man 2 (2004)",
+      "title": "Spider-Man 2",
       "year": 2004,
-      "imdbID": "tt25210340",
-      "imdbRating": null,
-      "poster": null,
-      "genres": [],
-      "cast": [],
-      "director": null,
-      "runtimeMinutes": null,
-      "plot": null,
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:11.637Z"
+      "imdbID": "tt0316654",
+      "imdbRating": 7.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGQ0YTQyYTgtNWI2YS00NTE2LWJmNDItNTFlMTUwNmFlZTM0XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "Alfred Molina"
+      ],
+      "director": "Sam Raimi",
+      "runtimeMinutes": 127,
+      "plot": "Peter Parker is beset with troubles in his failing personal life as he battles a former brilliant scientist named Otto Octavius.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:21.925Z"
     },
     {
-      "queriedTitle": "Spider-Man 3 (2007)",
+      "queriedTitle": "Spider-Man 3",
       "ok": true,
-      "title": "Spider-Man 3 (2007)",
+      "title": "Spider-Man 3",
       "year": 2007,
-      "imdbID": "tt25211202",
-      "imdbRating": null,
-      "poster": null,
-      "genres": [],
-      "cast": [],
-      "director": null,
-      "runtimeMinutes": null,
-      "plot": null,
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:11.946Z"
+      "imdbID": "tt0413300",
+      "imdbRating": 6.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BODE2NzNhMDctYjUzMC00Y2M5LWI2Y2EtODJkZTFjN2Y5ODlmXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "Topher Grace"
+      ],
+      "director": "Sam Raimi",
+      "runtimeMinutes": 139,
+      "plot": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:22.236Z"
     },
     {
-      "queriedTitle": "The Amazing Spider-Man (2012)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:53.030Z"
+      "queriedTitle": "The Amazing Spider-Man",
+      "ok": true,
+      "title": "The Amazing Spider-Man",
+      "year": 2012,
+      "imdbID": "tt0948470",
+      "imdbRating": 6.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Andrew Garfield",
+        "Emma Stone",
+        "Rhys Ifans"
+      ],
+      "director": "Marc Webb",
+      "runtimeMinutes": 136,
+      "plot": "After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:22.554Z"
     },
     {
-      "queriedTitle": "The Amazing Spider-Man 2 (2014)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-11T20:18:53.341Z"
+      "queriedTitle": "The Amazing Spider-Man 2",
+      "ok": true,
+      "title": "The Amazing Spider-Man 2",
+      "year": 2014,
+      "imdbID": "tt1872181",
+      "imdbRating": 6.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDYxNTg0OV5BMl5BanBnXkFtZTgwODE5NzU1MTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Andrew Garfield",
+        "Emma Stone",
+        "Jamie Foxx"
+      ],
+      "director": "Marc Webb",
+      "runtimeMinutes": 142,
+      "plot": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-12T07:19:22.845Z"
     },
     {
       "queriedTitle": "Dumb and Dumber",
@@ -4983,7 +6024,7 @@
       "fetchedAt": "2026-09-11T20:17:03.335Z"
     },
     {
-      "queriedTitle": "I,robot",
+      "queriedTitle": "I, Robot",
       "ok": true,
       "title": "I, Robot",
       "year": 2004,
@@ -5004,7 +6045,7 @@
       "runtimeMinutes": 115,
       "plot": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
       "rated": "PG-13",
-      "fetchedAt": "2026-09-11T13:06:13.179Z"
+      "fetchedAt": "2026-09-12T07:19:23.136Z"
     },
     {
       "queriedTitle": "The Big Bang Theory",
@@ -5030,28 +6071,52 @@
       "fetchedAt": "2026-09-11T20:17:03.658Z"
     },
     {
-      "queriedTitle": "Venom: The Last Dance",
+      "queriedTitle": "The Legend of Hercules",
       "ok": true,
-      "title": "Venom: The Last Dance",
-      "year": 2024,
-      "imdbID": "tt16366836",
-      "imdbRating": 6,
-      "poster": "https://m.media-amazon.com/images/M/MV5BZDMyYWU4NzItZDY0MC00ODE2LTkyYTMtMzNkNDdmYmFhZDg0XkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "The Legend of Hercules",
+      "year": 2014,
+      "imdbID": "tt1043726",
+      "imdbRating": 4.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQwMjEyODQxMV5BMl5BanBnXkFtZTgwMDQxMjE3MDE@._V1_SX300.jpg",
       "genres": [
         "Action",
         "Adventure",
-        "Horror"
+        "Fantasy"
       ],
       "cast": [
-        "Tom Hardy",
-        "Chiwetel Ejiofor",
-        "Juno Temple"
+        "Kellan Lutz",
+        "Gaia Weiss",
+        "Scott Adkins"
       ],
-      "director": "Kelly Marcel",
-      "runtimeMinutes": 110,
-      "plot": "Eddie Brock and Venom must make a devastating decision as they're pursued by a mysterious military man and alien monsters from Venom's home world.",
+      "director": "Renny Harlin",
+      "runtimeMinutes": 99,
+      "plot": "The origin story of the mythical Greek hero. Betrayed by his stepfather, the King, and exiled and sold into slavery because of a forbidden love, Hercules must use his formidable powers to fight his way back to his rightful kingdom.",
       "rated": "PG-13",
-      "fetchedAt": "2026-09-11T20:17:03.977Z"
+      "fetchedAt": "2026-09-12T07:19:23.418Z"
+    },
+    {
+      "queriedTitle": "Hercules",
+      "ok": true,
+      "title": "Hercules",
+      "year": 1997,
+      "imdbID": "tt0119282",
+      "imdbRating": 7.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmUyZGY1ZjItMWYwZS00MjJjLTg1YzAtY2Q5OTA4MmFhYzFjXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "cast": [
+        "Tate Donovan",
+        "Susan Egan",
+        "James Woods"
+      ],
+      "director": "Ron Clements, John Musker",
+      "runtimeMinutes": 93,
+      "plot": "The son of Zeus and Hera is stripped of his immortality as an infant and must become a true hero in order to reclaim it.",
+      "rated": "G",
+      "fetchedAt": "2026-09-12T07:19:23.706Z"
     }
   ]
 }
