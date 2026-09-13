@@ -1,4 +1,134 @@
 {
-  "generatedAt": null,
-  "collections": []
+  "generatedAt": "2026-09-13T18:52:41.288Z",
+  "collections": [
+    {
+      "name": "Marvel",
+      "movies": [
+        {
+          "queriedTitle": "Iron Man",
+          "ok": true,
+          "title": "Iron Man",
+          "year": 2008,
+          "imdbID": "tt0371746",
+          "imdbRating": 7.9,
+          "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+          ],
+          "cast": [
+            "Robert Downey Jr.",
+            "Gwyneth Paltrow",
+            "Terrence Howard"
+          ],
+          "director": "Jon Favreau",
+          "runtimeMinutes": 126,
+          "plot": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+          "rated": "PG-13",
+          "fetchedAt": "2026-09-11T20:16:43.044Z"
+        },
+        {
+          "queriedTitle": "iron man 2",
+          "ok": true,
+          "title": "Iron Man 2",
+          "year": 2010,
+          "imdbID": "tt1228705",
+          "imdbRating": 6.9,
+          "poster": "https://m.media-amazon.com/images/M/MV5BYWYyOGQzOGYtMGQ1My00ZWYxLTgzZjktZWYzN2IwYjkxYzM0XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+          "genres": [
+            "Action",
+            "Sci-Fi"
+          ],
+          "cast": [
+            "Robert Downey Jr.",
+            "Mickey Rourke",
+            "Gwyneth Paltrow"
+          ],
+          "director": "Jon Favreau",
+          "runtimeMinutes": 124,
+          "plot": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
+          "rated": "PG-13",
+          "fetchedAt": "2026-09-11T13:04:56.202Z"
+        }
+      ]
+    },
+    {
+      "name": "Lord of the rings",
+      "movies": [
+        {
+          "queriedTitle": "The Lord of the Rings: The Fellowship of the Ring",
+          "ok": true,
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "year": 2001,
+          "imdbID": "tt0120737",
+          "imdbRating": 8.9,
+          "poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "cast": [
+            "Elijah Wood",
+            "Ian McKellen",
+            "Orlando Bloom"
+          ],
+          "director": "Peter Jackson",
+          "runtimeMinutes": 178,
+          "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+          "rated": "PG-13",
+          "fetchedAt": "2026-09-12T07:19:17.828Z"
+        },
+        {
+          "queriedTitle": "The Lord of the Rings: The Two Towers",
+          "ok": true,
+          "title": "The Lord of the Rings: The Two Towers",
+          "year": 2002,
+          "imdbID": "tt0167261",
+          "imdbRating": 8.8,
+          "poster": "https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "cast": [
+            "Elijah Wood",
+            "Ian McKellen",
+            "Viggo Mortensen"
+          ],
+          "director": "Peter Jackson",
+          "runtimeMinutes": 179,
+          "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+          "rated": "PG-13",
+          "fetchedAt": "2026-09-12T07:19:18.112Z"
+        },
+        {
+          "queriedTitle": "The Lord of the Rings: The Return of the King",
+          "ok": true,
+          "title": "The Lord of the Rings: The Return of the King",
+          "year": 2003,
+          "imdbID": "tt0167260",
+          "imdbRating": 9,
+          "poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ],
+          "cast": [
+            "Elijah Wood",
+            "Viggo Mortensen",
+            "Ian McKellen"
+          ],
+          "director": "Peter Jackson",
+          "runtimeMinutes": 201,
+          "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+          "rated": "PG-13",
+          "fetchedAt": "2026-09-12T07:19:18.398Z"
+        }
+      ]
+    }
+  ]
 }
