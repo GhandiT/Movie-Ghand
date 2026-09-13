@@ -6,9 +6,9 @@
   <title>GHANDI MOVIES — a personal film archive</title>
   <meta name="description" content="A personal, self-updating library of every film watched — built from a plain text list." />
 
-  <!-- Favicon (logo.png should be in the repo root) -->
-  <link rel="icon" type="image/png" href="logo.png" />
-  <link rel="apple-touch-icon" href="logo.png" />
+  <!-- Favicon (small, pre-resized copies of logo.png — see logo-*.png) -->
+  <link rel="icon" type="image/png" href="logo-32.png" />
+  <link rel="apple-touch-icon" href="logo-180.png" />
 
   <!-- Prevent flash of wrong theme: must run before body renders -->
   <script>
@@ -34,15 +34,20 @@
 
   <header class="site-header" id="site-header">
     <div class="header-inner">
-      <div class="brand">
-        <img src="logo.png" alt="" class="brand-mark" aria-hidden="true" onerror="this.style.display='none'" />
+      <a href="index.html" class="brand" aria-label="Ghandi Movies — Home">
+        <img src="logo-64.png" alt="" class="brand-mark" aria-hidden="true" onerror="this.style.display='none'" />
         <h1 class="brand-name">Ghandi Movies</h1>
-      </div>
+      </a>
       <div class="header-actions">
         <p class="brand-tagline">A running record of everything watched</p>
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" type="button">
           <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
           <span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span>
+        </button>
+        <button class="hamburger-toggle" id="hamburger-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer" type="button">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
         </button>
       </div>
     </div>
@@ -51,6 +56,21 @@
       <!-- filled in by script.js -->
     </div>
   </header>
+
+  <nav class="nav-drawer" id="nav-drawer" data-open="false" aria-label="Main navigation">
+    <div class="nav-drawer-backdrop" id="nav-drawer-backdrop"></div>
+    <div class="nav-drawer-panel">
+      <button class="nav-drawer-close" id="nav-drawer-close" aria-label="Close menu" type="button">&times;</button>
+      <ul class="nav-drawer-list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="status.html">My Status</a></li>
+        <li><a href="watchlist.html">Watchlist &amp; Rewatchs</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="random.html">Pick a Random Movie</a></li>
+        <li><a href="about.html">About &amp; Credits</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <main>
 
@@ -153,6 +173,7 @@
     </div>
   </div>
 
+  <script src="common.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
