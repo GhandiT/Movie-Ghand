@@ -1,7 +1,8 @@
-name: Update movies.json
+name: Update site data
 
 # When this workflow runs:
-# 1. Automatically, whenever movies.txt is changed on the main branch
+# 1. Automatically, whenever movies.txt, Watchlist.txt, or collections.txt
+#    changes on the main branch
 # 2. Manually, from the Actions tab ("Run workflow" button) — useful the
 #    first time you set things up, or if you just want to refresh data
 #
@@ -15,6 +16,8 @@ on:
     branches: [main]
     paths:
       - "movies.txt"
+      - "Watchlist.txt"
+      - "collections.txt"
   workflow_dispatch:
     inputs:
       force_refresh:
@@ -23,13 +26,13 @@ on:
         default: false
 
 # Minimum permissions needed: only `contents: write`, so the workflow can
-# commit the regenerated movies.json back to the repo. No other scopes
+# commit the regenerated *.json files back to the repo. No other scopes
 # are granted.
 permissions:
   contents: write
 
 jobs:
-  update-movies:
+  update-data:
     runs-on: ubuntu-latest
     steps:
       # Third-party actions are pinned to an immutable commit SHA (not a
@@ -44,21 +47,40 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch movie data from OMDb
+      # Each script independently protects its own JSON file: if OMDb is
+      # down or the key is bad, that script exits non-zero and leaves its
+      # file untouched, but the others still run so a problem with one
+      # data source doesn't block the others.
+      - name: Fetch movies.json (Home)
         env:
           OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
           FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
         run: node scripts/fetch-movies.js
 
-      - name: Commit updated movies.json
+      - name: Fetch watchlist.json (Watchlist & Rewatchs)
+        if: always()
+        env:
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
+        run: node scripts/fetch-watchlist.js
+
+      - name: Fetch collections.json (Collection)
+        if: always()
+        env:
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
+        run: node scripts/fetch-collections.js
+
+      - name: Commit updated data files
+        if: always()
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add movies.json
+          git add movies.json watchlist.json collections.json
           if git diff --cached --quiet; then
-            echo "No changes to movies.json — nothing to commit."
+            echo "No data changes — nothing to commit."
           else
-            git commit -m "chore: update movies.json [skip ci]"
+            git commit -m "chore: update site data [skip ci]"
             git push
           fi
