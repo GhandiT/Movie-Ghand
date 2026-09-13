@@ -1,6 +1,5 @@
 Heat 
 No Country for Old Men
-The Tree of Life
 Paths of Glory
 Life Is Beautiful
 A Beautiful Mind
@@ -49,3 +48,9 @@ Dead Poets Society
 The Intouchables
 La La Land
 Schindler's List
+Avengers: Doomsday
+Game of Thrones
+Darkest Hour
+Silo
+The Cat in the Hat
+The Tree of Life
