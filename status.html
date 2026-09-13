@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Status — Ghandi Movies</title>
+  <meta name="description" content="Dynamic statistics about the Ghandi Movies archive: best movie, favorite actor and actress, favorite genre and year." />
+
+  <link rel="icon" type="image/png" href="logo-32.png" />
+  <link rel="apple-touch-icon" href="logo-180.png" />
+
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        var prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+        var theme = saved || (prefersLight ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand" aria-label="Ghandi Movies — Home">
+        <img src="logo-64.png" alt="" class="brand-mark" aria-hidden="true" onerror="this.style.display='none'" />
+        <h1 class="brand-name">Ghandi Movies</h1>
+      </a>
+      <div class="header-actions">
+        <p class="brand-tagline">My Status</p>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" type="button">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+          <span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span>
+        </button>
+        <button class="hamburger-toggle" id="hamburger-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer" type="button">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav-drawer" id="nav-drawer" data-open="false" aria-label="Main navigation">
+    <div class="nav-drawer-backdrop" id="nav-drawer-backdrop"></div>
+    <div class="nav-drawer-panel">
+      <button class="nav-drawer-close" id="nav-drawer-close" aria-label="Close menu" type="button">&times;</button>
+      <ul class="nav-drawer-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="status.html" aria-current="page">My Status</a></li>
+        <li><a href="watchlist.html">Watchlist &amp; Rewatchs</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="random.html">Pick a Random Movie</a></li>
+        <li><a href="about.html">About &amp; Credits</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="status-page">
+
+    <div class="status-loading" id="status-loading">Loading your statistics…</div>
+    <div class="status-empty" id="status-empty" hidden>
+      <h2>Nothing to show yet</h2>
+      <p>Add titles to <code>movies.txt</code> and run the update workflow, then come back here.</p>
+    </div>
+
+    <div class="status-content" id="status-content" hidden>
+
+      <section class="status-grid" aria-label="Highlights">
+        <article class="status-card status-card-wide" id="card-best-movie">
+          <h2 class="status-card-eyebrow">Best Movie</h2>
+          <div class="status-card-body" id="best-movie-body"></div>
+        </article>
+
+        <article class="status-card" id="card-favorite-actor">
+          <h2 class="status-card-eyebrow">Favorite Actor</h2>
+          <div class="status-card-body" id="favorite-actor-body"></div>
+        </article>
+
+        <article class="status-card" id="card-favorite-actress">
+          <h2 class="status-card-eyebrow">Favorite Actress</h2>
+          <div class="status-card-body" id="favorite-actress-body"></div>
+        </article>
+      </section>
+
+      <section class="status-section" aria-labelledby="favorite-genre-heading">
+        <div class="status-section-header">
+          <h2 id="favorite-genre-heading">Favorite Genre</h2>
+          <p class="status-section-value" id="favorite-genre-value"></p>
+        </div>
+        <div class="poster-scroller" id="favorite-genre-scroller"></div>
+      </section>
+
+      <section class="status-section" aria-labelledby="favorite-year-heading">
+        <div class="status-section-header">
+          <h2 id="favorite-year-heading">Favorite Year</h2>
+          <p class="status-section-value" id="favorite-year-value"></p>
+        </div>
+        <div class="poster-scroller" id="favorite-year-scroller"></div>
+      </section>
+
+      <section class="status-section" aria-labelledby="genre-chart-heading">
+        <div class="status-section-header">
+          <h2 id="genre-chart-heading">Genre</h2>
+          <p class="status-section-subtitle">Distribution of every watched movie by genre</p>
+        </div>
+        <div class="genre-chart" id="genre-chart" role="img" aria-label="Genre distribution chart"></div>
+      </section>
+
+      <section class="status-section" aria-label="About the archivist">
+        <article class="me-card" id="me-card">
+          <div class="me-card-image">
+            <img src="me.jpg" alt="" id="me-card-image" onerror="this.style.display='none'; this.parentElement.classList.add('me-card-image--empty');" />
+          </div>
+          <div class="me-card-body">
+            <p class="me-card-name">Ghandi A.T</p>
+          </div>
+        </article>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Data from <a href="https://www.omdbapi.com/" target="_blank" rel="noopener noreferrer">OMDb API</a>. Actor &amp; actress portraits from <a href="https://www.wikidata.org/" target="_blank" rel="noopener noreferrer">Wikidata</a>.</p>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top" type="button" hidden>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <div class="detail-overlay" id="detail-overlay" hidden>
+    <div class="detail-card" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <button class="detail-close" id="detail-close" aria-label="Close" type="button">&times;</button>
+      <div class="detail-body" id="detail-body"></div>
+    </div>
+  </div>
+
+  <script src="common.js"></script>
+  <script src="status.js"></script>
+</body>
+</html>

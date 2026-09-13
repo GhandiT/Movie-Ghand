@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pick a Random Movie — Ghandi Movies</title>
+  <meta name="description" content="Let the archive pick a random watched movie rated 6.0 or higher." />
+
+  <link rel="icon" type="image/png" href="logo-32.png" />
+  <link rel="apple-touch-icon" href="logo-180.png" />
+
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        var prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+        var theme = saved || (prefersLight ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand" aria-label="Ghandi Movies — Home">
+        <img src="logo-64.png" alt="" class="brand-mark" aria-hidden="true" onerror="this.style.display='none'" />
+        <h1 class="brand-name">Ghandi Movies</h1>
+      </a>
+      <div class="header-actions">
+        <p class="brand-tagline">Pick a Random Movie</p>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" type="button">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+          <span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span>
+        </button>
+        <button class="hamburger-toggle" id="hamburger-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer" type="button">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav-drawer" id="nav-drawer" data-open="false" aria-label="Main navigation">
+    <div class="nav-drawer-backdrop" id="nav-drawer-backdrop"></div>
+    <div class="nav-drawer-panel">
+      <button class="nav-drawer-close" id="nav-drawer-close" aria-label="Close menu" type="button">&times;</button>
+      <ul class="nav-drawer-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="status.html">My Status</a></li>
+        <li><a href="watchlist.html">Watchlist &amp; Rewatchs</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="random.html" aria-current="page">Pick a Random Movie</a></li>
+        <li><a href="about.html">About &amp; Credits</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="random-page">
+
+    <div class="random-stage" id="random-stage">
+      <p class="random-intro">Feeling indecisive? Let the archive choose — only movies rated 6.0 or higher are eligible.</p>
+      <button class="random-button" id="random-button" type="button">
+        <span class="random-button-label">PICK A MOVIE</span>
+      </button>
+      <p class="random-status" id="random-status" aria-live="polite"></p>
+    </div>
+
+    <div class="random-result" id="random-result" hidden></div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Data from <a href="https://www.omdbapi.com/" target="_blank" rel="noopener noreferrer">OMDb API</a>. Generated automatically — no browser API calls.</p>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top" type="button" hidden>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <script src="common.js"></script>
+  <script src="random.js"></script>
+</body>
+</html>
