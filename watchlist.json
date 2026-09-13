@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-13T19:38:00.695Z",
-  "sourceCount": 51,
+  "generatedAt": "2026-09-13T20:16:21.937Z",
+  "sourceCount": 56,
   "movies": [
     {
       "queriedTitle": "Heat",
@@ -49,29 +49,6 @@
       "plot": "Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande.",
       "rated": "R",
       "fetchedAt": "2026-09-13T18:52:26.719Z"
-    },
-    {
-      "queriedTitle": "The Tree of Life",
-      "ok": true,
-      "title": "The Tree of Life",
-      "year": 2011,
-      "imdbID": "tt0478304",
-      "imdbRating": 6.8,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTMwNjQ0NjMzN15BMl5BanBnXkFtZTcwNjMxMTkyNA@@._V1_SX300.jpg",
-      "genres": [
-        "Drama",
-        "Fantasy"
-      ],
-      "cast": [
-        "Brad Pitt",
-        "Sean Penn",
-        "Jessica Chastain"
-      ],
-      "director": "Terrence Malick",
-      "runtimeMinutes": 139,
-      "plot": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.",
-      "rated": "PG-13",
-      "fetchedAt": "2026-09-13T18:52:27.027Z"
     },
     {
       "queriedTitle": "Paths of Glory",
@@ -528,7 +505,7 @@
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T19:38:00.443Z"
+      "fetchedAt": "2026-09-13T20:16:20.187Z"
     },
     {
       "queriedTitle": "Avatar",
@@ -1195,6 +1172,149 @@
       "plot": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
       "rated": "R",
       "fetchedAt": "2026-09-13T18:52:40.990Z"
+    },
+    {
+      "queriedTitle": "Avengers: Doomsday",
+      "ok": true,
+      "title": "Avengers: Doomsday",
+      "year": 2026,
+      "imdbID": "tt21357150",
+      "imdbRating": null,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTdlMDgxNjAtNjkxOC00ZDYxLTg3MDEtZmIwZjIxOGMwYjVkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Robert Downey Jr.",
+        "Pedro Pascal",
+        "Chris Hemsworth"
+      ],
+      "director": "Anthony Russo, Joe Russo",
+      "runtimeMinutes": 165,
+      "plot": "Heroes from three different worlds must unite when they're thrust together to confront a catastrophic danger that could destroy everything they know.",
+      "rated": null,
+      "fetchedAt": "2026-09-13T20:16:20.490Z"
+    },
+    {
+      "queriedTitle": "Game of Thrones",
+      "ok": true,
+      "title": "Game of Thrones",
+      "year": 2011,
+      "imdbID": "tt0944947",
+      "imdbRating": 9.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "cast": [
+        "Emilia Clarke",
+        "Peter Dinklage",
+        "Kit Harington"
+      ],
+      "director": null,
+      "runtimeMinutes": 57,
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-09-13T20:16:20.789Z"
+    },
+    {
+      "queriedTitle": "Darkest Hour",
+      "ok": true,
+      "title": "Darkest Hour",
+      "year": 2017,
+      "imdbID": "tt4555426",
+      "imdbRating": 7.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjIyNDkyMTgzMV5BMl5BanBnXkFtZTgwNTQwNjg2MzI@._V1_SX300.jpg",
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "cast": [
+        "Gary Oldman",
+        "Lily James",
+        "Kristin Scott Thomas"
+      ],
+      "director": "Joe Wright",
+      "runtimeMinutes": 125,
+      "plot": "In May 1940, the fate of World War II hangs on Winston Churchill, who must decide whether to negotiate with Adolf Hitler, or fight on knowing that it could mean the end of the British Empire.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T20:16:21.087Z"
+    },
+    {
+      "queriedTitle": "Silo",
+      "ok": true,
+      "title": "Silo",
+      "year": 2023,
+      "imdbID": "tt14688458",
+      "imdbRating": 8.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2E5ODJmOTUtYTk0NS00NmFiLTk0MTgtZDRlNzE1YmExMjk4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Rebecca Ferguson",
+        "Common",
+        "Chinaza Uche"
+      ],
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": "Men and women live in a giant silo underground with several regulations which they believe are in place to protect them from the toxic and ruined world on the surface.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-09-13T20:16:21.384Z"
+    },
+    {
+      "queriedTitle": "The Cat in the Hat",
+      "ok": true,
+      "title": "The Cat in the Hat",
+      "year": 2003,
+      "imdbID": "tt0312528",
+      "imdbRating": 4.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTI5MDU3MTYyMF5BMl5BanBnXkFtZTYwODgyODc3._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "cast": [
+        "Mike Myers",
+        "Alec Baldwin",
+        "Kelly Preston"
+      ],
+      "director": "Bo Welch",
+      "runtimeMinutes": 82,
+      "plot": "Two bored children have their lives turned upside down when a talking cat comes to visit them.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-13T20:16:21.686Z"
+    },
+    {
+      "queriedTitle": "The Tree of Life",
+      "ok": true,
+      "title": "The Tree of Life",
+      "year": 2011,
+      "imdbID": "tt0478304",
+      "imdbRating": 6.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMwNjQ0NjMzN15BMl5BanBnXkFtZTcwNjMxMTkyNA@@._V1_SX300.jpg",
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "cast": [
+        "Brad Pitt",
+        "Sean Penn",
+        "Jessica Chastain"
+      ],
+      "director": "Terrence Malick",
+      "runtimeMinutes": 139,
+      "plot": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T18:52:27.027Z"
     }
   ]
 }
