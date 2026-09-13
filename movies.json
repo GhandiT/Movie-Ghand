@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T17:26:50.379Z",
+  "generatedAt": "2026-09-13T17:30:17.955Z",
   "sourceCount": 263,
   "movies": [
     {
@@ -1008,7 +1008,7 @@
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T17:26:48.368Z"
+      "fetchedAt": "2026-09-13T17:30:15.772Z"
     },
     {
       "queriedTitle": "X-Men: The Last Stand",
@@ -1967,14 +1967,14 @@
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T17:26:48.667Z"
+      "fetchedAt": "2026-09-13T17:30:16.196Z"
     },
     {
       "queriedTitle": "Harry Potter and the Deathly Hallows 2",
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T17:26:48.957Z"
+      "fetchedAt": "2026-09-13T17:30:16.500Z"
     },
     {
       "queriedTitle": "Jojo Rabbit",
@@ -4325,14 +4325,14 @@
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T17:26:49.253Z"
+      "fetchedAt": "2026-09-13T17:30:16.801Z"
     },
     {
       "queriedTitle": "The Fast and the Furious 4",
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T17:26:49.550Z"
+      "fetchedAt": "2026-09-13T17:30:17.105Z"
     },
     {
       "queriedTitle": "Free Guy",
@@ -4746,7 +4746,7 @@
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T17:26:49.837Z"
+      "fetchedAt": "2026-09-13T17:30:17.402Z"
     },
     {
       "queriedTitle": "The Adam Project",
@@ -5605,7 +5605,7 @@
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T17:26:50.127Z"
+      "fetchedAt": "2026-09-13T17:30:17.703Z"
     },
     {
       "queriedTitle": "Downfall",
