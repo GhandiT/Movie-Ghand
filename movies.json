@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T18:52:26.207Z",
+  "generatedAt": "2026-09-13T19:38:00.263Z",
   "sourceCount": 263,
   "movies": [
     {
@@ -1004,11 +1004,28 @@
       "fetchedAt": "2026-09-12T07:19:03.141Z"
     },
     {
-      "queriedTitle": "X-Men 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T18:52:24.135Z"
+      "queriedTitle": "X2: X-Men United",
+      "ok": true,
+      "title": "X2: X-Men United",
+      "year": 2003,
+      "imdbID": "tt0290334",
+      "imdbRating": 7.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDk0NjYxMzIzOF5BMl5BanBnXkFtZTYwMTc1MjU3._V1_QL75_UY562_CR1,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "cast": [
+        "Patrick Stewart",
+        "Hugh Jackman",
+        "Halle Berry"
+      ],
+      "director": "Bryan Singer",
+      "runtimeMinutes": 134,
+      "plot": "When anti-mutant Colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T19:37:58.106Z"
     },
     {
       "queriedTitle": "X-Men: The Last Stand",
@@ -1963,18 +1980,52 @@
       "fetchedAt": "2026-09-12T07:19:09.393Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Deathly Hallows 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T18:52:24.440Z"
+      "queriedTitle": "Harry Potter and the Deathly Hallows: Part 1",
+      "ok": true,
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "year": 2010,
+      "imdbID": "tt0926084",
+      "imdbRating": 7.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint"
+      ],
+      "director": "David Yates",
+      "runtimeMinutes": 146,
+      "plot": "Harry Potter is tasked with the dangerous and seemingly impossible task of locating and destroying Voldemort's remaining Horcruxes. Harry must rely on Ron and Hermione more than ever, but dark forces threaten to tear them apart.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T19:37:58.414Z"
     },
     {
-      "queriedTitle": "Harry Potter and the Deathly Hallows 2",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T18:52:24.742Z"
+      "queriedTitle": "Harry Potter and the Deathly Hallows: Part 2",
+      "ok": true,
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "year": 2011,
+      "imdbID": "tt1201607",
+      "imdbRating": 8.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint"
+      ],
+      "director": "David Yates",
+      "runtimeMinutes": 130,
+      "plot": "Harry, Ron and Hermione set out on a quest to eliminate the remaining horcruxes. On the other hand, the students and teachers must unite to defend Hogwarts against Lord Voldemort and his army.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T19:37:58.737Z"
     },
     {
       "queriedTitle": "Jojo Rabbit",
@@ -4321,18 +4372,51 @@
       "fetchedAt": "2026-09-11T13:05:50.798Z"
     },
     {
-      "queriedTitle": "The Fast and the Furious 1",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T18:52:25.045Z"
+      "queriedTitle": "The Fast and the Furious",
+      "ok": true,
+      "title": "The Fast and the Furious",
+      "year": 2001,
+      "imdbID": "tt0232500",
+      "imdbRating": 6.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGRiMDE1NTMtMThmZS00YjE4LWI1ODQtNjRkZGZlOTg2MGE1XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "cast": [
+        "Vin Diesel",
+        "Paul Walker",
+        "Michelle Rodriguez"
+      ],
+      "director": "Rob Cohen",
+      "runtimeMinutes": 106,
+      "plot": "Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to end it.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T19:37:59.046Z"
     },
     {
-      "queriedTitle": "The Fast and the Furious 4",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T18:52:25.356Z"
+      "queriedTitle": "Fast & Furious",
+      "ok": true,
+      "title": "Fast & Furious",
+      "year": 2009,
+      "imdbID": "tt1013752",
+      "imdbRating": 6.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2Y1YzhkNzUtMzhmZC00OTFkLWJjZDktMWYzZmQ0Y2Y5ODcwXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "cast": [
+        "Vin Diesel",
+        "Paul Walker",
+        "Michelle Rodriguez"
+      ],
+      "director": "Justin Lin",
+      "runtimeMinutes": 107,
+      "plot": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T19:37:59.354Z"
     },
     {
       "queriedTitle": "Free Guy",
@@ -4742,11 +4826,28 @@
       "fetchedAt": "2026-09-11T13:05:56.725Z"
     },
     {
-      "queriedTitle": "#############",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T18:52:25.654Z"
+      "queriedTitle": "From",
+      "ok": true,
+      "title": "From",
+      "year": 2022,
+      "imdbID": "tt9813792",
+      "imdbRating": 7.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDAwNDljNWEtNWE1Zi00YjFlLWEzM2UtY2E3ZTM1MTcxMTcyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "cast": [
+        "Harold Perrineau",
+        "Catalina Sandino Moreno",
+        "David Alpay"
+      ],
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": "A town with a hidden secret experiences strange occurrences that intensify at night. Mysterious forces disrupt everyday routines as residents try to preserve stability and community while attempting to comprehend their surroundings.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-09-13T19:37:59.711Z"
     },
     {
       "queriedTitle": "The Adam Project",
@@ -5601,11 +5702,27 @@
       "fetchedAt": "2026-09-12T07:19:19.823Z"
     },
     {
-      "queriedTitle": "Rocky 4",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T18:52:25.955Z"
+      "queriedTitle": "Rocky IV",
+      "ok": true,
+      "title": "Rocky IV",
+      "year": 1985,
+      "imdbID": "tt0089927",
+      "imdbRating": 6.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjJiYzRiYWMtZTgyZC00YjliLWIwZWMtZTJlYjkyYzc2MDMxXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Drama",
+        "Sport"
+      ],
+      "cast": [
+        "Sylvester Stallone",
+        "Talia Shire",
+        "Burt Young"
+      ],
+      "director": "Sylvester Stallone",
+      "runtimeMinutes": 91,
+      "plot": "Rocky Balboa proudly holds the world heavyweight boxing championship, but a new challenger has stepped forward: Drago, a six-foot-six, 261-pound fighter who has the backing of the Soviet Union.",
+      "rated": "PG",
+      "fetchedAt": "2026-09-13T19:38:00.012Z"
     },
     {
       "queriedTitle": "Downfall",

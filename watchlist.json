@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T18:52:41.241Z",
+  "generatedAt": "2026-09-13T19:38:00.695Z",
   "sourceCount": 51,
   "movies": [
     {
@@ -528,7 +528,7 @@
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T18:52:32.810Z"
+      "fetchedAt": "2026-09-13T19:38:00.443Z"
     },
     {
       "queriedTitle": "Avatar",
