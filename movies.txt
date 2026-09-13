@@ -40,7 +40,7 @@ Pirates of the Caribbean: On Stranger Tides
 Pirates of the Caribbean: Dead Men Tell No Tales
 Shutter Island
 X-Men
-X-Men 2
+X2: X-Men United
 X-Men: The Last Stand
 X-Men Origins: Wolverine
 X-Men: First Class
@@ -81,8 +81,8 @@ Harry Potter and the Prisoner of Azkaban
 Harry Potter and the Goblet of Fire
 Harry Potter and the Order of the Phoenix
 Harry Potter and the Half-Blood Prince
-Harry Potter and the Deathly Hallows 1
-Harry Potter and the Deathly Hallows 2
+Harry Potter and the Deathly Hallows: Part 1
+Harry Potter and the Deathly Hallows: Part 2
 Jojo Rabbit
 Mad Max: Fury Road
 Aladdin
@@ -182,8 +182,8 @@ Jungle Cruise
 Chef
 Don't Breathe
 Bloodshot
-The Fast and the Furious 1
-The Fast and the Furious 4
+The Fast and the Furious
+Fast & Furious
 Free Guy
 Train to Busan
 Kate
@@ -201,7 +201,7 @@ Spider-Man: No Way Home
 Doctor Strange in the Multiverse of Madness
 Shang-Chi and the Legend of the Ten Rings
 Red Notice
-#############
+From
 The Adam Project
 Army of Thieves
 Army of the Dead
@@ -238,7 +238,7 @@ Fall guy
 Rocky
 Rocky II
 Rocky III
-Rocky 4
+Rocky IV
 Downfall
 365 Days
 Bruce almighty
