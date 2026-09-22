@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T10:04:01.842Z",
-  "sourceCount": 264,
+  "generatedAt": "2026-09-22T10:30:27.621Z",
+  "sourceCount": 265,
   "movies": [
     {
       "queriedTitle": "Hancock",
@@ -5562,27 +5562,28 @@
       "fetchedAt": "2026-09-11T13:06:05.101Z"
     },
     {
-      "queriedTitle": "Materialist",
+      "queriedTitle": "Materialists",
       "ok": true,
-      "title": "Materialist",
-      "year": 2016,
-      "imdbID": "tt5774608",
-      "imdbRating": null,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTFjOGNkOTItZjYwYi00MzI0LTk5NzAtNDczNjM5MjQ4YzVhXkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "Materialists",
+      "year": 2025,
+      "imdbID": "tt30253473",
+      "imdbRating": 6.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_QL75_UX380_CR0,15,380,562_.jpg",
       "genres": [
-        "Short",
-        "Drama"
+        "Comedy",
+        "Drama",
+        "Romance"
       ],
       "cast": [
-        "Luca Asselin",
-        "Élisabeth Gingras",
-        "Sébastien Tessier"
+        "Dakota Johnson",
+        "Chris Evans",
+        "Pedro Pascal"
       ],
-      "director": "Mathieu Houle-Beausoleil",
-      "runtimeMinutes": 30,
-      "plot": "Étienne, troubled by his choices, attempts to have fun with his friends in a luxurious chalet.",
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:05.411Z"
+      "director": "Celine Song",
+      "runtimeMinutes": 116,
+      "plot": "An ambitious young New York City matchmaker finds herself torn between the perfect match and her imperfect ex.",
+      "rated": "R",
+      "fetchedAt": "2026-09-22T10:30:26.186Z"
     },
     {
       "queriedTitle": "Eden",
@@ -5609,28 +5610,28 @@
       "fetchedAt": "2026-09-11T13:06:05.723Z"
     },
     {
-      "queriedTitle": "Fall guy",
+      "queriedTitle": "The Fall guy",
       "ok": true,
-      "title": "Fall Guy",
-      "year": 1982,
-      "imdbID": "tt0082601",
-      "imdbRating": 6.9,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzIwOTUxNTIxOF5BMl5BanBnXkFtZTcwOTkwODcyMQ@@._V1_SX300.jpg",
+      "title": "The Fall Guy",
+      "year": 2024,
+      "imdbID": "tt1684562",
+      "imdbRating": 6.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2U0MTJiYTItMjNiZS00MzU4LTkxYTAtYTU0ZGY1ODJhMjRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
       "genres": [
+        "Action",
         "Comedy",
-        "Drama",
-        "Romance"
+        "Drama"
       ],
       "cast": [
-        "Keiko Matsuzaka",
-        "Morio Kazama",
-        "Mitsuru Hirata"
+        "Ryan Gosling",
+        "Emily Blunt",
+        "Aaron Taylor-Johnson"
       ],
-      "director": "Kinji Fukasaku",
-      "runtimeMinutes": 109,
-      "plot": "A lowly obsequious member of a movie star's entourage agrees to marry his boss's pregnant mistress so he can continue his feckless lifestyle. He then takes up dangerous work as a stunt man to support his new family. Duty and loyal...",
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:06.037Z"
+      "director": "David Leitch",
+      "runtimeMinutes": 126,
+      "plot": "A stuntman, fresh off an almost career-ending accident, has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-22T10:30:26.486Z"
     },
     {
       "queriedTitle": "Rocky",
@@ -5843,20 +5844,28 @@
       "fetchedAt": "2026-09-11T13:06:08.838Z"
     },
     {
-      "queriedTitle": "deadpool and wolverine",
+      "queriedTitle": "Deadpool & Wolverine",
       "ok": true,
-      "title": "Deadpool and Wolverine (2024)",
+      "title": "Deadpool & Wolverine",
       "year": 2024,
-      "imdbID": "tt33133905",
-      "imdbRating": null,
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTEyNTc3M2UtZWM2My00ZDU0LTliNzMtYWMyODhmYzIyMTU1XkEyXkFqcGc@._V1_SX300.jpg",
-      "genres": [],
-      "cast": [],
-      "director": null,
-      "runtimeMinutes": 42,
-      "plot": null,
-      "rated": null,
-      "fetchedAt": "2026-09-11T13:06:09.146Z"
+      "imdbID": "tt6263850",
+      "imdbRating": 7.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "cast": [
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Emma Corrin"
+      ],
+      "director": "Shawn Levy",
+      "runtimeMinutes": 128,
+      "plot": "Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.",
+      "rated": "R",
+      "fetchedAt": "2026-09-22T10:30:26.781Z"
     },
     {
       "queriedTitle": "The Incredible Hulk",
@@ -6212,28 +6221,20 @@
       "fetchedAt": "2026-09-12T07:19:23.418Z"
     },
     {
-      "queriedTitle": "Hercules",
+      "queriedTitle": "Hercules (2014)",
       "ok": true,
-      "title": "Hercules",
-      "year": 1997,
-      "imdbID": "tt0119282",
-      "imdbRating": 7.3,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmUyZGY1ZjItMWYwZS00MjJjLTg1YzAtY2Q5OTA4MmFhYzFjXkEyXkFqcGc@._V1_SX300.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ],
-      "cast": [
-        "Tate Donovan",
-        "Susan Egan",
-        "James Woods"
-      ],
-      "director": "Ron Clements, John Musker",
-      "runtimeMinutes": 93,
-      "plot": "The son of Zeus and Hera is stripped of his immortality as an infant and must become a true hero in order to reclaim it.",
-      "rated": "G",
-      "fetchedAt": "2026-09-12T07:19:23.706Z"
+      "title": "TRMPS 22: Hercules (2014) w/ Gen Chittenden",
+      "year": 2014,
+      "imdbID": "tt19058686",
+      "imdbRating": null,
+      "poster": null,
+      "genres": [],
+      "cast": [],
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": null,
+      "rated": null,
+      "fetchedAt": "2026-09-22T10:30:27.073Z"
     },
     {
       "queriedTitle": "Atomic Blonde",
@@ -6257,6 +6258,30 @@
       "plot": "An undercover MI6 agent is sent to Berlin during the Cold War to investigate the murder of a fellow agent and recover a missing list of double agents.",
       "rated": "R",
       "fetchedAt": "2026-09-22T10:04:01.591Z"
+    },
+    {
+      "queriedTitle": "The Mummy: Tomb of the Dragon Emperor",
+      "ok": true,
+      "title": "The Mummy: Tomb of the Dragon Emperor",
+      "year": 2008,
+      "imdbID": "tt0859163",
+      "imdbRating": 5.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU4NDIzMDY1OV5BMl5BanBnXkFtZTcwNjQxMzk3MQ@@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "cast": [
+        "Brendan Fraser",
+        "Jet Li",
+        "Maria Bello"
+      ],
+      "director": "Rob Cohen",
+      "runtimeMinutes": 112,
+      "plot": "In the Far East, Alex O'Connell, the son of famed mummy fighters Rick and Evy O'Connell, unearths the mummy of the first Emperor of Qin -- a shape-shifting entity cursed by a witch centuries ago.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-22T10:30:27.370Z"
     }
   ]
 }
