@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-13T20:16:21.937Z",
-  "sourceCount": 56,
+  "generatedAt": "2026-09-22T10:02:44.760Z",
+  "sourceCount": 73,
   "movies": [
+    {
+      "queriedTitle": "Project Hail Mary",
+      "ok": true,
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "imdbID": "tt12042730",
+      "imdbRating": 8.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Drama"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Sandra Hüller",
+        "James Ortiz"
+      ],
+      "director": "Phil Lord, Christopher Miller",
+      "runtimeMinutes": 156,
+      "plot": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T18:52:36.745Z"
+    },
     {
       "queriedTitle": "Heat",
       "ok": true,
@@ -49,6 +73,29 @@
       "plot": "Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande.",
       "rated": "R",
       "fetchedAt": "2026-09-13T18:52:26.719Z"
+    },
+    {
+      "queriedTitle": "The Tree of Life",
+      "ok": true,
+      "title": "The Tree of Life",
+      "year": 2011,
+      "imdbID": "tt0478304",
+      "imdbRating": 6.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMwNjQ0NjMzN15BMl5BanBnXkFtZTcwNjMxMTkyNA@@._V1_SX300.jpg",
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "cast": [
+        "Brad Pitt",
+        "Sean Penn",
+        "Jessica Chastain"
+      ],
+      "director": "Terrence Malick",
+      "runtimeMinutes": 139,
+      "plot": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-13T18:52:27.027Z"
     },
     {
       "queriedTitle": "Paths of Glory",
@@ -477,35 +524,75 @@
       "fetchedAt": "2026-09-13T18:52:32.209Z"
     },
     {
-      "queriedTitle": "Matrix",
+      "queriedTitle": "The Matrix",
       "ok": true,
-      "title": "Matrix",
-      "year": 1993,
-      "imdbID": "tt0106062",
-      "imdbRating": 7.2,
-      "poster": "https://m.media-amazon.com/images/M/MV5BM2JiZjU1NmQtNjg1Ni00NjA3LTk2MjMtNjYxMTgxODY0NjRhXkEyXkFqcGc@._V1_SX300.jpg",
+      "title": "The Matrix",
+      "year": 1999,
+      "imdbID": "tt0133093",
+      "imdbRating": 8.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
       "genres": [
         "Action",
-        "Drama",
-        "Fantasy"
+        "Sci-Fi"
       ],
       "cast": [
-        "Nick Mancuso",
-        "Phillip Jarrett",
+        "Keanu Reeves",
+        "Laurence Fishburne",
         "Carrie-Anne Moss"
       ],
-      "director": null,
-      "runtimeMinutes": 60,
-      "plot": "Hitman Steven Matrix is shot, experiences afterlife, gets second chance by helping others. Wakes up, meets guides assigning cases where he aids people using unorthodox methods from past profession.",
-      "rated": null,
-      "fetchedAt": "2026-09-13T18:52:32.511Z"
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "runtimeMinutes": 136,
+      "plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "rated": "R",
+      "fetchedAt": "2026-09-22T10:02:38.864Z"
     },
     {
-      "queriedTitle": "Napelon",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-09-13T20:16:20.187Z"
+      "queriedTitle": "Napoleon",
+      "ok": true,
+      "title": "Napoleon",
+      "year": 2023,
+      "imdbID": "tt13287846",
+      "imdbRating": 6.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGQ1NGUxNDUtNjg3Yi00ZTZjLWIwOTUtNDBjYWY5ZjVmZGI4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Biography"
+      ],
+      "cast": [
+        "Joaquin Phoenix",
+        "Vanessa Kirby",
+        "Tahar Rahim"
+      ],
+      "director": "Ridley Scott",
+      "runtimeMinutes": 158,
+      "plot": "An epic that details the chequered rise and fall of French Emperor Napoleon Bonaparte and his relentless journey to power through the prism of his addictive, volatile relationship with his wife, Josephine.",
+      "rated": "R",
+      "fetchedAt": "2026-09-22T10:02:39.170Z"
+    },
+    {
+      "queriedTitle": "Sex education",
+      "ok": true,
+      "title": "Sex Education",
+      "year": 2019,
+      "imdbID": "tt7767422",
+      "imdbRating": 8.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTE0MjQ1NDU3OV5BMl5BanBnXkFtZTgwNTI4MTgwNzM@._V1_SX300.jpg",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "cast": [
+        "Asa Butterfield",
+        "Gillian Anderson",
+        "Ncuti Gatwa"
+      ],
+      "director": null,
+      "runtimeMinutes": 45,
+      "plot": "A teenage boy with a sex-therapist mother teams up with a high-school classmate to set up an underground sex-therapy clinic at school.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-09-22T10:02:39.469Z"
     },
     {
       "queriedTitle": "Avatar",
@@ -530,6 +617,30 @@
       "plot": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
       "rated": "PG-13",
       "fetchedAt": "2026-09-13T18:52:33.111Z"
+    },
+    {
+      "queriedTitle": "Avatar: The Way of Water",
+      "ok": true,
+      "title": "Avatar: The Way of Water",
+      "year": 2022,
+      "imdbID": "tt1630029",
+      "imdbRating": 7.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "cast": [
+        "Sam Worthington",
+        "Zoe Saldaña",
+        "Sigourney Weaver"
+      ],
+      "director": "James Cameron",
+      "runtimeMinutes": 192,
+      "plot": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-22T10:02:39.778Z"
     },
     {
       "queriedTitle": "American pie",
@@ -697,6 +808,27 @@
       "fetchedAt": "2026-09-13T18:52:35.242Z"
     },
     {
+      "queriedTitle": "Fifty shades",
+      "ok": true,
+      "title": "Fifty Shades",
+      "year": 2012,
+      "imdbID": "tt3972666",
+      "imdbRating": null,
+      "poster": null,
+      "genres": [
+        "Short"
+      ],
+      "cast": [
+        "Susan-Kate Heaney",
+        "Brian Patacca"
+      ],
+      "director": "Mitch Yapko",
+      "runtimeMinutes": null,
+      "plot": null,
+      "rated": null,
+      "fetchedAt": "2026-09-22T10:02:40.099Z"
+    },
+    {
       "queriedTitle": "Divergent",
       "ok": true,
       "title": "Divergent",
@@ -815,30 +947,6 @@
       "plot": "A pair of underachieving cops are sent back to a local high school to blend in and bring down a synthetic drug ring.",
       "rated": "R",
       "fetchedAt": "2026-09-13T18:52:36.447Z"
-    },
-    {
-      "queriedTitle": "Project Hail Mary",
-      "ok": true,
-      "title": "Project Hail Mary",
-      "year": 2026,
-      "imdbID": "tt12042730",
-      "imdbRating": 8.2,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Drama"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Sandra Hüller",
-        "James Ortiz"
-      ],
-      "director": "Phil Lord, Christopher Miller",
-      "runtimeMinutes": 156,
-      "plot": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key.",
-      "rated": "PG-13",
-      "fetchedAt": "2026-09-13T18:52:36.745Z"
     },
     {
       "queriedTitle": "28 Years Later",
@@ -1174,6 +1282,54 @@
       "fetchedAt": "2026-09-13T18:52:40.990Z"
     },
     {
+      "queriedTitle": "About time",
+      "ok": true,
+      "title": "About Time",
+      "year": 2013,
+      "imdbID": "tt2194499",
+      "imdbRating": 7.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_SX300.jpg",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "cast": [
+        "Domhnall Gleeson",
+        "Rachel McAdams",
+        "Bill Nighy"
+      ],
+      "director": "Richard Curtis",
+      "runtimeMinutes": 123,
+      "plot": "At the age of 21, Tim discovers he can travel in time and change what happens and has happened in his own life. His decision to make his world a better place by getting a girlfriend turns out not to be as easy as you might think.",
+      "rated": "R",
+      "fetchedAt": "2026-09-22T10:02:40.451Z"
+    },
+    {
+      "queriedTitle": "Crazy, Stupid, Love",
+      "ok": true,
+      "title": "Crazy, Stupid, Love.",
+      "year": 2011,
+      "imdbID": "tt1570728",
+      "imdbRating": 7.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MjkwMTM0NF5BMl5BanBnXkFtZTcwMzc4NDg2NQ@@._V1_SX300.jpg",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "cast": [
+        "Steve Carell",
+        "Ryan Gosling",
+        "Julianne Moore"
+      ],
+      "director": "Glenn Ficarra, John Requa",
+      "runtimeMinutes": 118,
+      "plot": "A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to pick up girls at bars.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-22T10:02:40.788Z"
+    },
+    {
       "queriedTitle": "Avengers: Doomsday",
       "ok": true,
       "title": "Avengers: Doomsday",
@@ -1294,27 +1450,285 @@
       "fetchedAt": "2026-09-13T20:16:21.686Z"
     },
     {
-      "queriedTitle": "The Tree of Life",
+      "queriedTitle": "Marty Supreme",
       "ok": true,
-      "title": "The Tree of Life",
-      "year": 2011,
-      "imdbID": "tt0478304",
-      "imdbRating": 6.8,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTMwNjQ0NjMzN15BMl5BanBnXkFtZTcwNjMxMTkyNA@@._V1_SX300.jpg",
+      "title": "Marty Supreme",
+      "year": 2025,
+      "imdbID": "tt32916440",
+      "imdbRating": 7.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTRhYjI1MTItMWYwMi00MjY5LWI1OTktMzQwNzA3MWJlN2QyXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
       "genres": [
         "Drama",
+        "Sport"
+      ],
+      "cast": [
+        "Timothée Chalamet",
+        "Gwyneth Paltrow",
+        "Odessa A&apos;zion"
+      ],
+      "director": "Josh Safdie",
+      "runtimeMinutes": 149,
+      "plot": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
+      "rated": "R",
+      "fetchedAt": "2026-09-22T10:02:41.164Z"
+    },
+    {
+      "queriedTitle": "Captain America: Brave New World",
+      "ok": true,
+      "title": "Captain America: Brave New World",
+      "year": 2025,
+      "imdbID": "tt14513804",
+      "imdbRating": 5.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Anthony Mackie",
+        "Harrison Ford",
+        "Danny Ramirez"
+      ],
+      "director": "Julius Onah",
+      "runtimeMinutes": 118,
+      "plot": "Sam Wilson, the new Captain America, finds himself in the middle of an international incident and must discover the motive behind a nefarious global plan.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-22T10:02:41.467Z"
+    },
+    {
+      "queriedTitle": "Thunderbolts*",
+      "ok": true,
+      "title": "Thunderbolts*",
+      "year": 2025,
+      "imdbID": "tt20969586",
+      "imdbRating": 7.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDIzNGUwZmYtODM0Yy00NjA3LTgxOGUtOTY0ZGM5MjBkM2I3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Crime"
+      ],
+      "cast": [
+        "Florence Pugh",
+        "Sebastian Stan",
+        "Julia Louis-Dreyfus"
+      ],
+      "director": "Jake Schreier",
+      "runtimeMinutes": 127,
+      "plot": "After finding themselves ensnared in a death trap, an unconventional team of antiheroes must go on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-22T10:02:41.802Z"
+    },
+    {
+      "queriedTitle": "The Fantastic Four: First Steps",
+      "ok": true,
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "imdbID": "tt10676052",
+      "imdbRating": 6.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGM5MzA3MDAtYmEwMi00ZDNiLTg4MDgtMTZjOTc0ZGMyNTIwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Pedro Pascal",
+        "Vanessa Kirby",
+        "Ebon Moss-Bachrach"
+      ],
+      "director": "Matt Shakman",
+      "runtimeMinutes": 115,
+      "plot": "Forced to balance their roles as heroes with the strength of their family bond, the Fantastic Four must defend Earth from a ravenous space god called Galactus and his enigmatic herald, the Silver Surfer.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-22T10:02:42.101Z"
+    },
+    {
+      "queriedTitle": "Spider-Man: Brand New Day",
+      "ok": true,
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "imdbID": "tt22084616",
+      "imdbRating": 8.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Tom Holland",
+        "Zendaya",
+        "Mark Ruffalo"
+      ],
+      "director": "Destin Daniel Cretton",
+      "runtimeMinutes": 145,
+      "plot": "A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges.",
+      "rated": "PG-13",
+      "fetchedAt": "2026-09-22T10:02:42.406Z"
+    },
+    {
+      "queriedTitle": "Avengers: Secret Wars",
+      "ok": true,
+      "title": "Avengers: Secret Wars (Shorts)",
+      "year": 2017,
+      "imdbID": "tt29511598",
+      "imdbRating": null,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjc2N2YyY2QtZGI1Yy00MDZkLWEwMDktYTI2YWM2MTAyOGI5XkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Animation"
+      ],
+      "cast": [],
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": null,
+      "rated": "TV-Y7",
+      "fetchedAt": "2026-09-22T10:02:42.706Z"
+    },
+    {
+      "queriedTitle": "WandaVision",
+      "ok": true,
+      "title": "WandaVision",
+      "year": 2021,
+      "imdbID": "tt9140560",
+      "imdbRating": 7.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTMxMmM1ODItMTZiMS00NjI1LWEwODctMjQ4ZjY4ODliNDI0XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama"
+      ],
+      "cast": [
+        "Elizabeth Olsen",
+        "Paul Bettany",
+        "Kathryn Hahn"
+      ],
+      "director": null,
+      "runtimeMinutes": 350,
+      "plot": "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.",
+      "rated": "TV-PG",
+      "fetchedAt": "2026-09-22T10:02:43.004Z"
+    },
+    {
+      "queriedTitle": "Loki",
+      "ok": true,
+      "title": "Loki",
+      "year": 2021,
+      "imdbID": "tt9140554",
+      "imdbRating": 8.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzA2YjM2ZWQtYTZhMS00OTI3LTlhYzQtZjBiZWZkMDdlNjA5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
         "Fantasy"
       ],
       "cast": [
-        "Brad Pitt",
-        "Sean Penn",
-        "Jessica Chastain"
+        "Tom Hiddleston",
+        "Owen Wilson",
+        "Sophia Di Martino"
       ],
-      "director": "Terrence Malick",
-      "runtimeMinutes": 139,
-      "plot": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.",
-      "rated": "PG-13",
-      "fetchedAt": "2026-09-13T18:52:27.027Z"
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”",
+      "rated": "TV-14",
+      "fetchedAt": "2026-09-22T10:02:43.298Z"
+    },
+    {
+      "queriedTitle": "Moon Knight",
+      "ok": true,
+      "title": "Moon Knight",
+      "year": 2022,
+      "imdbID": "tt10234724",
+      "imdbRating": 7.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDAzNmYwZjgtNDc3YS00ZDMyLTk0MjktMTg4MGNmNGU3MjlhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "cast": [
+        "Oscar Isaac",
+        "Ethan Hawke",
+        "May Calamawy"
+      ],
+      "director": null,
+      "runtimeMinutes": 31,
+      "plot": "Steven Grant discovers he's been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.",
+      "rated": "TV-14",
+      "fetchedAt": "2026-09-22T10:02:43.611Z"
+    },
+    {
+      "queriedTitle": "The Guardians of the Galaxy Holiday Special",
+      "ok": true,
+      "title": "The Guardians of the Galaxy Holiday Special",
+      "year": 2022,
+      "imdbID": "tt13623136",
+      "imdbRating": 6.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDA3MzdlYTQtMTUxNi00ZjJmLTkyOTYtNDkzYmIzYTJkZjMzXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "cast": [
+        "Luke Klein",
+        "Sean Gunn",
+        "Michael Rooker"
+      ],
+      "director": "James Gunn",
+      "runtimeMinutes": 42,
+      "plot": "Star-Lord, Drax, Rocket, Mantis, and Groot engage in some spirited shenanigans in an all-new original special created for Disney+.",
+      "rated": "TV-14",
+      "fetchedAt": "2026-09-22T10:02:43.910Z"
+    },
+    {
+      "queriedTitle": "I Am Groot",
+      "ok": true,
+      "title": "I Am Groot",
+      "year": 2022,
+      "imdbID": "tt13623148",
+      "imdbRating": 6.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzBlODMyZGQtN2QzOS00MDAzLWFjOGQtMGRjN2JmZWM0NWJkXkEyXkFqcGc@._V1_SX300.jpg",
+      "genres": [
+        "Animation",
+        "Short",
+        "Action"
+      ],
+      "cast": [
+        "Vin Diesel",
+        "Fred Tatasciore",
+        "Bradley Cooper"
+      ],
+      "director": null,
+      "runtimeMinutes": 31,
+      "plot": "A series of shorts featuring the seedling Groot along with several new and unusual characters.",
+      "rated": "TV-PG",
+      "fetchedAt": "2026-09-22T10:02:44.206Z"
+    },
+    {
+      "queriedTitle": "Daredevil: Born Again",
+      "ok": true,
+      "title": "Daredevil: Born Again",
+      "year": 2025,
+      "imdbID": "tt18923754",
+      "imdbRating": 8.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDBkMWRhMzEtM2M0Ny00OGZhLThkZGMtMTY1NWUwZWNhODdiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "cast": [
+        "Charlie Cox",
+        "Hamish Allan-Headley",
+        "Vincent D&apos;Onofrio"
+      ],
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": "Matt Murdock finds himself on a collision course with Wilson Fisk when their past identities begin to emerge.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-09-22T10:02:44.509Z"
     }
   ]
 }
