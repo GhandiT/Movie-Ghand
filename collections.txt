@@ -1,7 +1,253 @@
-1.Marvel
-iron man
-iron man 2
-2.Lord of the rings
+1. Marvel Cinematic Universe (MCU)
+
+Iron Man
+
+Iron Man 2
+
+Iron Man 3
+
+Captain America: The First Avenger
+
+Captain America: The Winter Soldier
+
+Captain America: Civil War
+
+Thor
+
+Thor: The Dark World
+
+Thor: Ragnarok
+
+Thor: Love and Thunder
+
+The Avengers
+
+Avengers: Age of Ultron
+
+Avengers: Infinity War
+
+Avengers: Endgame
+
+Ant-Man
+
+Ant-Man and the Wasp
+
+Doctor Strange
+
+Doctor Strange in the Multiverse of Madness
+
+Guardians of the Galaxy
+
+Guardians of the Galaxy Vol. 2
+
+Spider-Man: Homecoming
+
+Spider-Man: Far From Home
+
+Spider-Man: No Way Home
+
+Black Panther
+
+Captain Marvel
+
+Black Widow
+
+Eternals
+
+Shang-Chi and the Legend of the Ten Rings
+
+The Incredible Hulk
+
+Hulk
+
+Venom
+
+Venom: Let There Be Carnage
+
+Deadpool
+
+Deadpool 2
+
+Deadpool & Wolverine
+
+2. X-Men
+
+X-Men
+
+X2: X-Men United
+
+X-Men: The Last Stand
+
+X-Men Origins: Wolverine
+
+X-Men: First Class
+
+The Wolverine
+
+X-Men: Days of Future Past
+
+X-Men: Apocalypse
+
+Logan
+
+3. DC Extended Universe (DCEU)
+
+Man of Steel
+
+Batman v Superman: Dawn of Justice
+
+Suicide Squad
+
+Wonder Woman
+
+Justice League
+
+Aquaman
+
+Shazam!
+
+Wonder Woman 1984
+
+The Suicide Squad
+
+Black Adam
+
+4. Pirates of the Caribbean
+
+Pirates of the Caribbean: The Curse of the Black Pearl
+
+Pirates of the Caribbean: Dead Man's Chest
+
+Pirates of the Caribbean: At World's End
+
+Pirates of the Caribbean: On Stranger Tides
+
+Pirates of the Caribbean: Dead Men Tell No Tales
+
+5. Harry Potter
+
+Harry Potter and the Sorcerer's Stone
+
+Harry Potter and the Chamber of Secrets
+
+Harry Potter and the Prisoner of Azkaban
+
+Harry Potter and the Goblet of Fire
+
+Harry Potter and the Order of the Phoenix
+
+Harry Potter and the Half-Blood Prince
+
+Harry Potter and the Deathly Hallows: Part 1
+
+Harry Potter and the Deathly Hallows: Part 2
+
+6. The Lord of the Rings
+
 The Lord of the Rings: The Fellowship of the Ring
+
 The Lord of the Rings: The Two Towers
+
 The Lord of the Rings: The Return of the King
+
+7. The Hobbit
+
+The Hobbit: An Unexpected Journey
+
+The Hobbit: The Desolation of Smaug
+
+The Hobbit: The Battle of the Five Armies
+
+8. The Mummy
+
+The Mummy
+
+The Mummy Returns
+
+The Mummy 3
+
+The Mummy: Tomb of the Dragon Emperor
+
+9. John Wick
+
+John Wick
+
+John Wick: Chapter 2
+
+John Wick: Chapter 3 – Parabellum
+
+10. The Maze Runner
+
+The Maze Runner
+
+Maze Runner: The Scorch Trials
+
+Maze Runner: The Death Cure
+
+11. Now You See Me
+
+Now You See Me
+
+Now You See Me 2
+
+Now You See Me: Now You Don't
+
+12. Kingsman
+
+Kingsman: The Secret Service
+
+Kingsman: The Golden Circle
+
+13. A Quiet Place
+
+A Quiet Place
+
+A Quiet Place Part II
+
+14. The Hitman's Bodyguard
+
+The Hitman's Bodyguard
+
+Hitman's Wife's Bodyguard
+
+15. Spider-Man (Classic)
+
+Spider-Man
+
+Spider-Man 2
+
+Spider-Man 3
+
+16. The Amazing Spider-Man
+
+The Amazing Spider-Man
+
+The Amazing Spider-Man 2
+
+17. Maleficent
+
+Maleficent
+
+Maleficent: Mistress of Evil
+
+18. Rocky
+
+Rocky
+
+Rocky II
+
+Rocky III
+
+Rocky IV
+
+19. The Fast and the Furious
+
+The Fast and the Furious
+
+Fast & Furious
+
+20. Army of the Dead
+
+Army of Thieves
+
+Army of the Dead
