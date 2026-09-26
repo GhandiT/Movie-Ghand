@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-22T10:38:16.958Z",
-  "sourceCount": 73,
+  "generatedAt": "2026-09-26T10:24:49.724Z",
+  "sourceCount": 74,
   "movies": [
+    {
+      "queriedTitle": "72 Hours",
+      "ok": true,
+      "title": "72 Hours",
+      "year": 2026,
+      "imdbID": "tt36304003",
+      "imdbRating": 5.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BODQ1YWVlOTctMzNjMy00YzlmLTgxNjItNzVhOGYwMDVhZDllXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
+      "genres": [
+        "Comedy"
+      ],
+      "cast": [
+        "Kevin Hart",
+        "Marcello Hernández",
+        "Mason Gooding"
+      ],
+      "director": "Tim Story",
+      "runtimeMinutes": 105,
+      "plot": "A 40-year-old executive ends up at a three-day bachelor party with twenty-somethings after being mistakenly included in their chat group.",
+      "rated": "R",
+      "fetchedAt": "2026-09-26T10:24:49.473Z"
+    },
     {
       "queriedTitle": "Project Hail Mary",
       "ok": true,
