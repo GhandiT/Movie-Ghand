@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T12:08:24.096Z",
-  "sourceCount": 96,
+  "generatedAt": "2026-10-04T12:37:58.028Z",
+  "sourceCount": 95,
   "movies": [
     {
       "queriedTitle": "Narcos",
@@ -1939,11 +1939,11 @@
       "fetchedAt": "2026-10-04T12:08:19.330Z"
     },
     {
-      "queriedTitle": "No heart feeling",
+      "queriedTitle": "No hard feeling",
       "ok": false,
       "error": "not_found",
       "message": "Movie not found!",
-      "fetchedAt": "2026-10-04T12:08:19.641Z"
+      "fetchedAt": "2026-10-04T12:37:56.885Z"
     },
     {
       "queriedTitle": "Severance",
@@ -1994,18 +1994,49 @@
       "fetchedAt": "2026-10-04T12:08:20.297Z"
     },
     {
-      "queriedTitle": "Lessons of chemistry",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-10-04T12:08:20.611Z"
+      "queriedTitle": "Lessons in chemistry",
+      "ok": true,
+      "title": "Lessons in Chemistry",
+      "year": 2023,
+      "imdbID": "tt13911628",
+      "imdbRating": 8.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTNiMjc3OTEtZDE2NC00ZmViLTk4ZWMtYTJjYTkzMGRjY2M4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "cast": [
+        "Brie Larson",
+        "Lewis Pullman",
+        "Aja Naomi King"
+      ],
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": "In the 1950s, Elizabeth Zott's dream of being a scientist is challenged by a society that says women belong in the domestic sphere; she accepts a job on a TV cooking show and sets out to teach a nation of housewives way more than ...",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-10-04T12:37:57.186Z"
     },
     {
-      "queriedTitle": "Forcall mankind",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-10-04T12:08:20.941Z"
+      "queriedTitle": "For all mankind",
+      "ok": true,
+      "title": "For All Mankind",
+      "year": 2019,
+      "imdbID": "tt7772588",
+      "imdbRating": 8.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmI5OTNmYWQtNjRhNy00MWYxLWJjMzAtMmRlNDU1ZjBhMzhlXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "genres": [
+        "Drama",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Joel Kinnaman",
+        "Michael Dorman",
+        "Wrenn Schmidt"
+      ],
+      "director": null,
+      "runtimeMinutes": 60,
+      "plot": "In an alternative version of 1969, the Soviet Union beats the United States to the Moon, and the space race continues on for decades with still grander challenges and goals.",
+      "rated": "TV-MA",
+      "fetchedAt": "2026-10-04T12:37:57.485Z"
     },
     {
       "queriedTitle": "Margo's got money troubles",
@@ -2150,25 +2181,11 @@
       "fetchedAt": "2026-10-04T12:08:22.864Z"
     },
     {
-      "queriedTitle": "Artificial",
-      "ok": true,
-      "title": "Artificial",
-      "year": 2020,
-      "imdbID": "tt12535674",
-      "imdbRating": null,
-      "poster": null,
-      "genres": [
-        "Short",
-        "Sci-Fi"
-      ],
-      "cast": [
-        "Jeff Friedman"
-      ],
-      "director": null,
-      "runtimeMinutes": null,
-      "plot": null,
-      "rated": null,
-      "fetchedAt": "2026-10-04T12:08:23.183Z"
+      "queriedTitle": "Artificial (2026)",
+      "ok": false,
+      "error": "not_found",
+      "message": "Movie not found!",
+      "fetchedAt": "2026-10-04T12:37:57.777Z"
     },
     {
       "queriedTitle": "Heads of state",
@@ -2193,29 +2210,6 @@
       "plot": "When the U.K. Prime Minister and U.S. President become the targets of a foreign adversary, they are forced to rely on each other to thwart a global conspiracy.",
       "rated": "PG-13",
       "fetchedAt": "2026-10-04T12:08:23.496Z"
-    },
-    {
-      "queriedTitle": "Friends",
-      "ok": true,
-      "title": "Friends",
-      "year": 1994,
-      "imdbID": "tt0108778",
-      "imdbRating": 8.8,
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "cast": [
-        "Jennifer Aniston",
-        "Courteney Cox",
-        "Lisa Kudrow"
-      ],
-      "director": null,
-      "runtimeMinutes": 22,
-      "plot": "The personal and professional lives of six friends living in the Manhattan borough of New York City.",
-      "rated": "TV-14",
-      "fetchedAt": "2026-10-04T12:08:23.845Z"
     }
   ]
 }
