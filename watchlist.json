@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T12:37:58.028Z",
-  "sourceCount": 95,
+  "generatedAt": "2026-10-04T12:51:32.263Z",
+  "sourceCount": 97,
   "movies": [
     {
       "queriedTitle": "Narcos",
@@ -1939,11 +1939,27 @@
       "fetchedAt": "2026-10-04T12:08:19.330Z"
     },
     {
-      "queriedTitle": "No hard feeling",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-10-04T12:37:56.885Z"
+      "queriedTitle": "No hard feelings",
+      "ok": true,
+      "title": "No Hard Feelings",
+      "year": 2023,
+      "imdbID": "tt15671028",
+      "imdbRating": 6.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjk1NmZiNzYtZGUyYi00YzEwLTgwNWQtM2VmOWFmMGIwZDM2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "cast": [
+        "Jennifer Lawrence",
+        "Andrew Barth Feldman",
+        "Laura Benanti"
+      ],
+      "director": "Gene Stupnitsky",
+      "runtimeMinutes": 103,
+      "plot": "On the brink of losing her home, Maddie finds an intriguing job listing: helicopter parents looking for someone to bring their introverted 19-year-old son out of his shell before college. She has one summer to make him a man or di...",
+      "rated": "R",
+      "fetchedAt": "2026-10-04T12:51:31.090Z"
     },
     {
       "queriedTitle": "Severance",
@@ -2181,11 +2197,25 @@
       "fetchedAt": "2026-10-04T12:08:22.864Z"
     },
     {
-      "queriedTitle": "Artificial (2026)",
-      "ok": false,
-      "error": "not_found",
-      "message": "Movie not found!",
-      "fetchedAt": "2026-10-04T12:37:57.777Z"
+      "queriedTitle": "Artificial",
+      "ok": true,
+      "title": "Artificial",
+      "year": 2020,
+      "imdbID": "tt12535674",
+      "imdbRating": null,
+      "poster": null,
+      "genres": [
+        "Short",
+        "Sci-Fi"
+      ],
+      "cast": [
+        "Jeff Friedman"
+      ],
+      "director": null,
+      "runtimeMinutes": null,
+      "plot": null,
+      "rated": null,
+      "fetchedAt": "2026-10-04T12:51:31.386Z"
     },
     {
       "queriedTitle": "Heads of state",
@@ -2210,6 +2240,52 @@
       "plot": "When the U.K. Prime Minister and U.S. President become the targets of a foreign adversary, they are forced to rely on each other to thwart a global conspiracy.",
       "rated": "PG-13",
       "fetchedAt": "2026-10-04T12:08:23.496Z"
+    },
+    {
+      "queriedTitle": "Friends",
+      "ok": true,
+      "title": "Friends",
+      "year": 1994,
+      "imdbID": "tt0108778",
+      "imdbRating": 8.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "cast": [
+        "Jennifer Aniston",
+        "Courteney Cox",
+        "Lisa Kudrow"
+      ],
+      "director": null,
+      "runtimeMinutes": 22,
+      "plot": "The personal and professional lives of six friends living in the Manhattan borough of New York City.",
+      "rated": "TV-14",
+      "fetchedAt": "2026-10-04T12:51:31.713Z"
+    },
+    {
+      "queriedTitle": "Die my love",
+      "ok": true,
+      "title": "Die My Love",
+      "year": 2025,
+      "imdbID": "tt9362736",
+      "imdbRating": 6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjc5OWZlZmYtMTg3Yy00YzFmLTg0YTgtNjVjN2M2ZWJjOWM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "cast": [
+        "Jennifer Lawrence",
+        "Robert Pattinson",
+        "Sissy Spacek"
+      ],
+      "director": "Lynne Ramsay",
+      "runtimeMinutes": 119,
+      "plot": "Grace, a writer and young mother, is suffering from post partum depression and slowly spiralling into madness. Moving into an old house with her husband, Jackson, her mind begins to unravel as she becomes increasingly agitated and...",
+      "rated": "R",
+      "fetchedAt": "2026-10-04T12:51:32.012Z"
     }
   ]
 }
